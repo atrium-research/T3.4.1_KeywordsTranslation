@@ -92,18 +92,3 @@ def query_wikidata(query_term):
             highest_score = score
             best_match = result
     return best_match
-
-
-def query_wikidata2(query_term):
-    WIKIDATA_API_URL = "https://www.wikidata.org/w/api.php"
-    params = {
-        'action': 'wbsearchentities',
-        'search': query_term,
-        'language': 'en',
-        'format': 'json'
-    }
-    response = requests.get(WIKIDATA_API_URL, params=params)
-    
-    response = response.json().get('search', [])
-
-    return response
