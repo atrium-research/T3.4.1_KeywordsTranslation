@@ -1,6 +1,5 @@
 numpy==1.25.0
 requests==2.32.3
-importlib==1.0.4
 SPARQLWrapper==2.0.0
 llama-cpp-python==0.2.81
 huggingface-hub==0.23.4
