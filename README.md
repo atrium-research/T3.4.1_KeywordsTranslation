@@ -11,7 +11,7 @@ of keywords from the GoTriple platform in different languages. They can be used 
 - You can run the code locally (in this case, refer to the instructions in the installation section for Python version and dependencies)
 - Otherwise, you can use Binder. Binder creates for you a self-contained environment where all the dependencies specified in requirements.txt have been installed. While it does not interfere with your system, it should be noted that Binder takes long time to run and that 
 changes you bring to the code are not saved when you do them in Binder. 
-For running the code in Binder, follow the instructions at https://the-turing-way.netlify.app/communication/binder/zero-to-binder.html
+For running the code in Binder, go to the URL https://mybinder.org/v2/gh/atrium-research/T3.4.1_KeywordsTranslation/HEAD
 
 
 ## Installation
