@@ -17,7 +17,7 @@ def queryAPIDBpediaSpotlight(text, lang, confidence=0.5):
     headers = {'Accept': 'application/json'}
     params = {
         'text': text,
-        'confidence': 0.5  # livello di confidenza del linking
+        'confidence': 0.5  
     }
     response = requests.get(url, headers=headers, params=params)
     if response.status_code == 200:

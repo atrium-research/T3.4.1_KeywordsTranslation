@@ -15,7 +15,7 @@ def query_api(language, query_term, size=10):
     params = {
         'q': query_term,
         'include_duplicates': 'false',
-        'fq': 'in_language={}'.format(language),  # Filtra per documenti in francese
+        'fq': 'in_language={}'.format(language),  
         'size': 250
     }
 
@@ -49,7 +49,7 @@ returned
 def get_sample(languages, sample_size):
     total_items = []
     #  load the Json file with a list of query terms in different languages, useful to make queries
-    with open("C:/Users/paolo/Desktop/query_terms.json", "r") as file:  #  change path
+    with open("query_terms.json", "r") as file: 
         query_terms = json.load(file)
     keywords_per_language = sample_size / len(languages)  #  determines the number of keywords per language in the final sample
     
