@@ -1,8 +1,8 @@
 ## Description
 
-The first commit contains functions for experimenting with different tools.
+The current commit contains functions for experimenting with different tools.
 
-- The notebook "main" contains function for obtaining WikiData URIs from GoTriple keywords. With the first commit, two functions were introduced: a function that uses DBPedia Spotlight and a function that uses Large Language Models. Please refer to the code for further details on how to use the functions.
+- Run the notebook test_notebook if you want to start experimenting with the currently available tools (actually, three functions are available: a function that uses DBPedia Spotlight, a function that uses quantized versions of open-source Large Language Models (and so that can be run on a laptop without specialized hardware and without access keys for proprietary models, and a function that uses OpenAI LLMs). Please refer to the code main_functions.py (where the functions are defined) for further details about the functions.
 - The files data_utils.py and tools_utils.py contain utility functions. They are useful for various purposes, such as obtaining a sample
 of keywords from the GoTriple platform in different languages. They can be used autonomously. Please refer to the code for further detail.
 

@@ -2,6 +2,7 @@ import requests
 from SPARQLWrapper import SPARQLWrapper, JSON
 from llama_cpp import Llama
 from difflib import SequenceMatcher
+from openai import OpenAI
 
 
 
@@ -92,3 +93,14 @@ def query_wikidata(query_term):
             highest_score = score
             best_match = result
     return best_match
+
+
+"""The following function is a wrapper for authentication in the OpenAI API
+It takes in input the name of the organization and the name of the project and gives as output
+the client object"""
+
+def openAI_authentication(key):
+    client = OpenAI(
+        api_key = key
+    )
+    return client

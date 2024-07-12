@@ -103,3 +103,48 @@ def get_sample(languages, sample_size):
         total_items.extend(items)
 
     return total_items
+
+"""
+The following function generates prompts to be given to LLMs.
+The function takes two parameters: 
+- Item is an item from the list produced by the function get_sample in data_utils.py 
+(use only items of that form, otherwise the function will not work!) (see the function get_sample for the structure of an item).
+- Context controls the context that we provide to the model. Possible values are "Title" (we want to provide the title with no abstract),
+"All" (we want to provide the title and the abstract), If the input is none of these, the prompt will include only the keywords.
+Note that providing the abstract slows performance (especially with open-source LLM) since the prompt is longer. 
+A good compromise is to provide only the title in order to limit the length of the prompt and still provide context to the model.
+The function returns the string with the prompt. 
+At this stage, the prompt follows the one-shot policy (it includes an example). Extensions could include a parameter to generate prompts
+based on different strategies (e.g., chain-of-thought)
+"""
+def prompt_generator(item, context):
+    if context == "Title":
+        prompt = """<s>[INST] {{Map each keyword of the article to one or more relevant WikiData entities.
+        Keywords are from a scientific article. 
+        The title of the article is {}.
+        The keyword list is: {}. 
+        An example of answer for the article with the title "Russian formalists and Russian literature"
+        and the list of keywords: literary life, literary fact, doing things
+        is: literary life: [literature]; literary fact: [literature], [fact]; doing things: [activity]
+        INCLUDE EACH SEPARATE ENTITY BETWEEN [] IN THE ANSWER }} [/INST]
+    """.format(item['Title_or'], ", ".join([kw for kw in item['Keywords']]))   
+    if context == "All":
+        prompt = """<s>[INST] {{Map each keyword of the article to one or more relevant WikiData entities.
+        Keywords are from a scientific article. 
+        The title of the article is {}.
+        The abstract of the article is {}.
+        The keyword list is: {}. 
+        An example of answer for the article with the title "Russian formalists and Russian literature"
+        and the list of keywords: literary life, literary fact, doing things
+        is: literary life: [literature]; literary fact: [literature], [fact]; doing things: [activity]
+        INCLUDE EACH SEPARATE ENTITY BETWEEN [] IN THE ANSWER }} [/INST]
+    """.format(item['Title_or'], item['Abstract_or'], ", ".join([kw for kw in item['Keywords']])) 
+    else:
+        prompt = """<s>[INST] {{Map each keyword to one or more relevant WikiData entities.
+        Keywords are from a scientific article. 
+        The keyword list is: {}. 
+        An example of answer for the list of keywords: literary life, literary fact, doing things
+        is: literary life: [literature]; literary fact: [literature], [fact]; doing things: [activity]
+        INCLUDE EACH SEPARATE ENTITY BETWEEN [] IN THE ANSWER }} [/INST]
+    """.format(", ".join([kw for kw in item['Keywords']]))
+    return prompt

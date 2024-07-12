@@ -3,4 +3,4 @@ requests==2.32.3
 SPARQLWrapper==2.0.0
 llama-cpp-python==0.2.81
 huggingface-hub==0.23.4
-
+openai==1.35.12
