@@ -46,6 +46,40 @@ If one of the values is not present among data returned by the API (for example,
 returned
 """
 
+def get_item_by_id(id):
+    url = 'https://api.gotriple.eu/documents/{}'.format(id)
+    response = requests.get(url)
+    if response.status_code == 200:
+        document = response.json()
+        keywords_original_language = [kw['text'] for kw in document["keywords"]]
+        if len(keywords_original_language) == 0:
+            print('No keywords found for the article with id: {}'.format(id))
+            return None
+        else:
+            item = {}
+            item['Language'] = document['in_language'][0]
+            item['Id'] = document['id']
+            item['Keywords'] = keywords_original_language
+            item['Title_eng'] = document['headline'][0]['text'] if document['headline'][0]['lang'] == 'en' else None
+            item['Title_or'] = document['headline'][0]['text'] if document['headline'][0]['lang'] == document['in_language'] else None
+            item['Abstract_eng'] = document['abstract'][0]['text'] if document['abstract'][0]['lang'] == 'en' else None
+            item['Abstract_or'] = document['abstract'][0]['text'] if document['abstract'][0]['lang'] == document['in_language'] else None
+            for headline in document['headline']:
+                if headline['lang'] == 'en':
+                    item['Title_eng'] = headline['text']
+                if headline['lang'] == item['Language']:
+                    item['Title_or'] = headline['text']
+            for abstract in document['abstract']:
+                if abstract['lang'] == 'en':
+                    item['Abstract_eng'] = abstract['text']
+                if abstract['lang'] == item['Language']:
+                    item['Abstract_or'] = abstract['text']
+            return item        
+    else:
+        print(f'Error: {response.status_code}')
+        return None
+
+
 def get_sample(languages, sample_size):
     total_items = []
     #  load the Json file with a list of query terms in different languages, useful to make queries
