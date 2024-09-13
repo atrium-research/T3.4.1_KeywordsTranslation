@@ -1,4 +1,5 @@
-## NEWS: This tool is now available as a workflow in the SSHOC Marketplace. You can find it at https://marketplace.sshopencloud.eu/workflow/rEet9L
+## NEWS: 
+This tool is now available as a workflow in the SSHOC Marketplace. You can find it at https://marketplace.sshopencloud.eu/workflow/rEet9L
 
 
 
