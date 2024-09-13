@@ -1,4 +1,4 @@
-## NEWS: 
+## News (13/09/2024): 
 This tool is now available as a workflow in the SSHOC Marketplace. You can find it at https://marketplace.sshopencloud.eu/workflow/rEet9L
 
 
