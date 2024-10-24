@@ -139,10 +139,6 @@ It returns a list of dictionaries where each dictionary has a field 'Keyword' an
 def useOpenAILLM(item, model, context, client):
   prompt = data_utils.prompt_generator(item, context)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 6a10568459a78cc159b77faaa1d46a72e6696119
   completion = client.chat.completions.create(
       model=model,
       messages=[
@@ -151,10 +147,7 @@ def useOpenAILLM(item, model, context, client):
       ]
     )
   
-<<<<<<< HEAD
   
-=======
->>>>>>> 6a10568459a78cc159b77faaa1d46a72e6696119
   #  formatting of the answer 
   entities = re.findall(r'\[([^\]]+)\]', completion.choices[0].message.content)
 

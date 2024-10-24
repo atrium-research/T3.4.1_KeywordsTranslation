@@ -78,7 +78,6 @@ def get_item_by_id(id):
     else:
         print(f'Error: {response.status_code}')
         return None
-<<<<<<< HEAD
     
 def get_item_from_user():
     """
@@ -104,8 +103,6 @@ def get_item_from_user():
     abstract_eng = input("Please, insert the abstract of the article in English (if not available, enter unknown): ")
     item['Abstract_eng'] = abstract_eng
     return item
-=======
->>>>>>> 6a10568459a78cc159b77faaa1d46a72e6696119
 
 
 def get_sample(languages, sample_size):
@@ -188,10 +185,7 @@ def prompt_generator(item, context):
         An example of answer for the article with the title "Russian formalists and Russian literature"
         and the list of keywords: literary life, literary fact, doing things
         is: literary life: [literature]; literary fact: [literature], [fact]; doing things: [activity]
-<<<<<<< HEAD
         Please, don't match keywords to the code of WikiData entities (e.g., Q123456), but to the entity name.
-=======
->>>>>>> 6a10568459a78cc159b77faaa1d46a72e6696119
         INCLUDE EACH SEPARATE ENTITY BETWEEN [] IN THE ANSWER }} [/INST]
     """.format(item['Title_or'], ", ".join([kw for kw in item['Keywords']]))   
     if context == "All":
@@ -203,10 +197,7 @@ def prompt_generator(item, context):
         An example of answer for the article with the title "Russian formalists and Russian literature"
         and the list of keywords: literary life, literary fact, doing things
         is: literary life: [literature]; literary fact: [literature], [fact]; doing things: [activity]
-<<<<<<< HEAD
         Please, don't match keywords to the code of WikiData entities (e.g., Q123456), but to the entity name.
-=======
->>>>>>> 6a10568459a78cc159b77faaa1d46a72e6696119
         INCLUDE EACH SEPARATE ENTITY BETWEEN [] IN THE ANSWER }} [/INST]
     """.format(item['Title_or'], item['Abstract_or'], ", ".join([kw for kw in item['Keywords']])) 
     else:
@@ -215,10 +206,7 @@ def prompt_generator(item, context):
         The keyword list is: {}. 
         An example of answer for the list of keywords: literary life, literary fact, doing things
         is: literary life: [literature]; literary fact: [literature], [fact]; doing things: [activity]
-<<<<<<< HEAD
         Please, don't match keywords to the code of WikiData entities (e.g., Q123456), but to the entity name.
-=======
->>>>>>> 6a10568459a78cc159b77faaa1d46a72e6696119
         INCLUDE EACH SEPARATE ENTITY BETWEEN [] IN THE ANSWER }} [/INST]
     """.format(", ".join([kw for kw in item['Keywords']]))
     return prompt
