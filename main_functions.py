@@ -7,7 +7,7 @@ import requests
 import importlib
 import data_utils
 import tools_utils
-from llama_cpp import Llama
+#  from llama_cpp import Llama
 import re
 from openai import OpenAI
 
@@ -164,3 +164,49 @@ def useOpenAILLM(item, model, context, client):
       results.append(item)
 
   return results
+
+
+"""
+The next function allows to use open-source LLMs via the Groq API. The function requires 
+previous authentication, otherwise it will not work. Like the function useLLM, the function takes as input item 
+(an item from the list produced by the function get_sample in data_utils.py), context (controls the context that 
+we provide to the model) and model (this time, model is the ID of the model to use - see https://console.groq.com/docs/models). 
+It also takes as input client (the object created by the Groq API after authentication - it should be created outside 
+the function and given as input to the function).
+The function creates a prompt analogous to the function useLLM. In particular, the prompt is structured so that the entities 
+recognized by the model are included in square brackets in the response, so that they can easily be retrieved using a regular expression.
+
+
+As the function useLLM, this function performs a query on Wikidata using the WikiData API 
+(the requests and the method for searching the best fit are in a function in tools_utils.py). 
+It returns a list of dictionaries where each dictionary has a field 'Keyword' and a field 'URI' 
+(the second has no value if the query gives no result)
+"""
+
+def useGroqLLM(item, model_name, context, client):
+    prompt = data_utils.prompt_generator(item, context)
+
+    completion = client.chat.completions.create(
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": prompt},
+    ],
+    model=model_name
+    )
+
+    entities = re.findall(r'\[([^\]]+)\]', completion.choices[0].message.content)
+
+    results = []
+    for entity in entities:
+        item = {}
+        item['Keyword'] = entity
+        uri = tools_utils.query_wikidata(entity.lower().split("()")[0])
+        if uri:
+            item['URI'] = uri['concepturi']
+        else:
+            item['URI'] = ''
+        results.append(item)
+
+    return results
+
+

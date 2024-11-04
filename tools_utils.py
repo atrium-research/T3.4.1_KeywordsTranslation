@@ -3,6 +3,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 from llama_cpp import Llama
 from difflib import SequenceMatcher
 from openai import OpenAI
+from groq import Groq
 
 
 
@@ -101,6 +102,16 @@ the client object"""
 
 def openAI_authentication(key):
     client = OpenAI(
+        api_key = key
+    )
+    return client
+
+
+"""The following function is a wrapper for authentication in the Groq API. 
+It takes as input the API key and returns the client object"""
+
+def groq_authentication(key):
+    client = Groq(
         api_key = key
     )
     return client
