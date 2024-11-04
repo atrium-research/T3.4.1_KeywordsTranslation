@@ -1,3 +1,8 @@
+## News (04/11/2024)
+The tool now integrates the Groq API to make the translation faster, cheaper and more efficient. The Groq API makes various small open LLM available.
+
+
+
 ## News (13/09/2024): 
 This tool is now available as a workflow in the SSHOC Marketplace. You can find it at https://marketplace.sshopencloud.eu/workflow/rEet9L
 
