@@ -1,6 +1,5 @@
 import requests
 from SPARQLWrapper import SPARQLWrapper, JSON
-from llama_cpp import Llama
 from difflib import SequenceMatcher
 from openai import OpenAI
 from groq import Groq
