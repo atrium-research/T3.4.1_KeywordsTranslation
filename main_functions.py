@@ -7,9 +7,16 @@ import requests
 import importlib
 import data_utils
 import tools_utils
+import prompt_utils
 #  from llama_cpp import Llama
 import re
 from openai import OpenAI
+
+from tenacity import (
+  retry,
+  stop_after_attempt,
+  wait_random_exponential,
+)  # for exponential backoff
 
 """- The first function uses DBPedia Spotlight. It maps keywords to DBPedia resources 
 (each keyword is mapped to the DBPedia correspondent to the keywords language) 
@@ -210,3 +217,59 @@ def useGroqLLM(item, model_name, context, client):
     return results
 
 
+def useLLM_back_and_forth(original_language, title, abstract, keyword, client, model_name, num_entities=1, NUM_NAMES = 10):
+
+    @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
+    def completion_with_backoff(**kwargs):
+        return client.chat.completions.create(**kwargs)    
+    
+    potential_entities_generation_prompt_object = prompt_utils.PotentialEntitiesGenerationPrompt(NUM_NAMES, original_language, title, abstract, keyword)
+    potential_entities_generation_prompt = potential_entities_generation_prompt_object.generate_prompt()
+
+    completion = completion_with_backoff(
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": potential_entities_generation_prompt},
+        ],
+        model=model_name
+    )
+
+
+    response = completion.choices[0].message.content
+
+    try:
+        llm_generated_entities = potential_entities_generation_prompt_object.checking_schema_function(response)
+    except:
+        print("Generated potential entities cannot be parsed")
+        return None
+
+    wikidata_entities = []
+    for generated_entity in llm_generated_entities:
+        wikidata_entities.extend(tools_utils.query_best_matches_wikidata(generated_entity))
+
+    wikidata_entities_string = ""
+    for entity in wikidata_entities:
+        wikidata_entities_string += "Entity: " + entity['label'] + "; " + "Description: " + entity['description'] + "; " + "URI: " + entity['uri'] + "\n"
+
+    entity_selection_prompt_object = prompt_utils.EntitySelectionPrompt(num_entities, original_language, title, abstract, keyword, wikidata_entities_string)
+    entity_selection_prompt = entity_selection_prompt_object.generate_prompt()
+
+
+    completion = completion_with_backoff(
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": entity_selection_prompt},
+        ],
+        model=model_name
+    )
+
+
+    
+    response = completion.choices[0].message.content
+    try:
+        selected_entities = entity_selection_prompt_object.checking_schema_function(response)
+    except:
+        print("Selected entities cannot be parsed")
+        return None
+
+    return selected_entities

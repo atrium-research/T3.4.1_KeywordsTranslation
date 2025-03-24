@@ -95,6 +95,44 @@ def query_wikidata(query_term):
     return best_match
 
 
+"""The following function makes a query on Wikidata using the API, 
+sort the results by a sequence matching score and returns the best matches
+Results are in the form of a list of dictionaries, where each dictionary contains the following keys:
+- label: the label of the entity
+- uri: the URI of the entity
+- description: the description of the entity
+- score: the sequence matching score
+
+"""
+def query_best_matches_wikidata(query_term, language = "en", number_of_results=3):
+    WIKIDATA_API_URL = "https://www.wikidata.org/w/api.php"
+    params = {
+        'action': 'wbsearchentities',
+        'search': query_term,
+        'language': language,
+        'format': 'json'
+    }
+    response = requests.get(WIKIDATA_API_URL, params=params)
+    
+    response = response.json().get('search', [])
+
+
+    best_match = None
+    highest_score = 0
+    results_with_scores = []
+    for entity in response:
+        result = {}
+        result['label'] = entity['label']
+        result['uri'] = entity['concepturi']
+        if 'description' in entity:
+            result['description'] = entity['description']
+        else:
+            result['description'] = ""
+        result['score'] = SequenceMatcher(None, query_term, entity['label']).ratio()
+        results_with_scores.append(result)
+    return sorted(results_with_scores, key=lambda x: x['score'], reverse=True)[:number_of_results]
+
+
 """The following function is a wrapper for authentication in the OpenAI API
 It takes in input the name of the organization and the name of the project and gives as output
 the client object"""
