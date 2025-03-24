@@ -1,3 +1,7 @@
+## News (24/03/2025)
+Our methodology has been presented in a paper accepted at the MDTT 2025 Conference (https://mdtt2025.web.auth.gr/en/)! In the paper, we evaluated our methodology on a newly created dataset of keyword mappings from the GoTriple portal. The evaluation_files of the repo contains the dataset file and the notebook used for the evaluation. 
+
+
 ## News (04/11/2024)
 The tool now integrates the Groq API to make the translation faster, cheaper and more efficient. The Groq API makes various small open LLM available.
 
