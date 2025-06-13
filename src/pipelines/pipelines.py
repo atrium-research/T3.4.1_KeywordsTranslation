@@ -1,6 +1,6 @@
 from ..utils import query_best_matches_wikidata 
 from ..clients import LLMClient
-from ..prompt import PotentialEntitiesGenerationPrompt, EntitySelectionPrompt
+from ..prompt import PotentialEntitiesGenerationPrompt, EntitySelectionPrompt, DirectWikidataLinkingPrompt
 
 class EntityExtractionPipeline:
     """Pipeline for extracting entities from research papers using any LLM client."""
@@ -161,3 +161,59 @@ class EntityExtractionPipeline:
             print("❌ Entity extraction failed")
         
         return selected_entities
+
+
+class DirectWikidataLinkingPipeline:
+    """Pipeline for directly linking paper keywords to Wikidata URIs using an LLM."""
+
+    def __init__(self, llm_client: LLMClient):
+        """
+        Initialize the pipeline with an LLM client.
+
+        Args:
+            llm_client: Instance of LLMClient (or its subclasses)
+        """
+        self.llm_client = llm_client
+
+    def link_keywords_to_uris(self, language: str, title: str, abstract: str, keywords: str):
+        """
+        Use LLM to directly link paper keywords to the most relevant Wikidata URIs.
+
+        Args:
+            language: Language of the research paper
+            title: Title of the paper
+            abstract: Abstract of the paper
+            keywords: Keywords (comma-separated or list)
+
+        Returns:
+            List of dictionaries with fields 'keyword', 'label', 'description', and 'uri',
+            or None if the parsing fails.
+        """
+        # print(" Linking keywords to Wikidata URIs...")
+
+        # Create prompt object
+        prompt_object = DirectWikidataLinkingPrompt(
+            language=language,
+            title=title,
+            abstract=abstract,
+            keywords=keywords
+        )
+        prompt = prompt_object.generate_prompt()
+
+        try:
+            # Call the LLM
+            response = self.llm_client.generate_response(
+                "You are a knowledgeable assistant helping map research concepts to Wikidata.",
+                prompt
+            )
+            #print(f"LLM Response: {response}")
+
+            # Parse and validate the response using the defined schema function
+            linked_entities = prompt_object.checking_schema_function(response)
+            #print(f"Found {len(linked_entities)} linked entities")
+
+            return linked_entities
+
+        except Exception as e:
+            print(f"❌ Failed to link keywords to Wikidata URIs: {e}")
+            return None

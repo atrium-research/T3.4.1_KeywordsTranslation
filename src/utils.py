@@ -73,7 +73,7 @@ def parse_excel_file(filepath: str) -> list:
                 not_empty_wikidata = pd.notna(kw_wikidata) and kw_wikidata != ""
                 not_empty_match = pd.notna(kw_match) and kw_match != ""
                 
-                if not_empty_wikidata or not_empty_match:
+                if not_empty_wikidata and not_empty_match:
                     kws.append({
                         'label': kw_label,
                         'wikidata_url': kw_wikidata.split(";") if pd.notna(kw_wikidata) else [],
@@ -88,12 +88,14 @@ def parse_excel_file(filepath: str) -> list:
     
     return result
 
+#quante delle entità corrette sono state effettivamente recuperate.
 def compute_recall(correct_uris, retrieved_uris):
     if len(correct_uris) == 0:
         return 0
     else:
         return len(set(correct_uris) & set(retrieved_uris)) / len(correct_uris)
 
+#quante delle entità recuperate sono corrette.
 def compute_precision(correct_uris, retrieved_uris):
     if len(retrieved_uris) == 0:
         return 0

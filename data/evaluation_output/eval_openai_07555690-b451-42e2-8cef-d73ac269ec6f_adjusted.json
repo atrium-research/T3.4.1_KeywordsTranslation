@@ -1,0 +1,586 @@
+[
+  {
+    "language": "fi",
+    "id": "fttheseus:oai:www.theseus.fi:10024/146560",
+    "title_or": "Lännenratsastuksen karjalajit : Internet-sivuston luominen ja havainnollistavan materiaalin tuottaminen",
+    "title_eng": "Species of west-bottomed cattle: Creation of a website and production of illustrative material",
+    "abstract_or": NaN,
+    "abstract_eng": "Opinnäytetyö oli toiminnallinen kehittämistyö, jossa luotiin Internet-sivusto ja karjalajien sääntövihko (epävirallinen). Sivuja mainostettiin erityisesti sosiaalisessa mediassa. Sivut on rakennettu WordPress-alustalle. Sivustolla on havainnollistava, informatiivinen ja tiivis esittely Suomessa harrastettavista karjalajeista ja karjanpaimentamisesta. Esitellyt lajit olivat Cattle Penning ja Team Penning sekä Team Sorting. Aiheen selkeyttämiseen lukijalle sivustolla käytettiin valokuvia, piirroksia ja videoita. Kuvamateriaali kuvattiin vuosina 2015-2017 Suomessa ja Ruotsissa. Piirrokset tehtiin Adobe PhotoShopilla. Kuvat piirsi opinnäytetyöntekijä itse. Opinnäytetyössä panostettiin visuaalisuuteen lukijan mielenkiinnon herättämiseksi. Luodun sivuston lisäksi opinnäytetyössä käännettiin lännenratsastuksen karjalajien säännöt suomeksi ja ne koottiin vihkoksi. Sääntöjen lähteenä käytettiin American Quarter Horse Associationin (AQHA) sääntökirjaa. Säännöt löytyvät liitteenä sivustolta. Säännöt ovat epäviralliset. Opinnäytetyön toimeksiantaja oli karjakursseja ja karjalajien harjoituskilpailuja järjestävä Launosten Kartano. Opinnäytetyöllä pyrittiin parantamaan lajin tunnettavuutta harrastajamäärän lisäämiseksi ja lajin kehittymiseksi. Sivujen avulla lajista tietämätön pystyy muodostamaan itselleen helposti kokonaiskuvan karjalajeista ja karjanpaimentamisesta. Kynnys alkeiskurssille menemiselle on matalampi, kun lajiin on mahdollista tutustua etukäteen Internetissä. Harrastajamäärän kasvamisen myötä kysyntä lisääntyy ja kursseja tarjoavien yritysten määrä voi kasvaa. Tällöin myös ulkomaalaisten kouluttajien kysyntä lisääntyy, jolloin yrittäjien ja harrastajien tietotaitotaso paranee. Laji on tullut Suomeen 2008, jolloin on järjestetty ensimmäinen karjakurssi Ylä-Savossa. Toiminnallisen kehittämistyön taustateoriaan kuului olennaisena osana Internet-sivujen rakentaminen. Sivujen hyvän rakenteen lisäksi teoriassa käsiteltiin tiedonhakua, jonka avulla varmistetaan luotettavan tiedon löytäminen sivuston materiaaliksi. Työn visuaalisuuden takia kuvamateriaali ja videokuvaus sekä editointi olivat tärkeä osa teoriaa. Viimeisenä käsiteltiin eläinten hyvinvointia ja eläinsuojelulakia, joka vaikuttaa karjalajien harrastamiseen. ; The thesis is a functional development work. It includes a web-page and an unofficial rulebook about cattle working in Western riding. The web-page was advertised especially in social media and it is created on WordPress platform. The page includes illustrative, informative and compact introduction of cattle working in Finland and cattle herding. The sport introduction concerns Cattle Penning and Team Penning and Team Sorting. Photos, computer drawings and videos were used to help the reader to clarify the subject. The photos were taken in years 2015 to 2017 in Finland and Sweden. The drawings were made with Abode PhotoShop. They were made by the author of the thesis. Visualization was an important part of the thesis because it raises the reader’s interest. Along with the web-page the sport rules were translated into Finnish and collected to one leaflet. The rules were translated from the rules of the American Quarter Horse Association. The translated rules are found from the web-page as an attachment. They are still unofficial. The client of the thesis was Launosten Kartano that arranges cattle courses and practice competitions. The thesis aimed to improve the recognizability of the sport to increase the number of hobbyists and to develop the sport. The web-page offers an unaware person a general view about cattle working and herding. The threshold for attending a basic cattle course is lower when the person can familiarize with this sport in advance. When the amount of hobbyists rises there will be more courses when the demand increases. This way the amount of companies that offer cattle courses can grow. Also, when there is more demand there can be more foreign trainers which improves the level of hobbyists and entrepreneurs. The sport has come to Finland in 2008 when the first cattle course was organized in North Savo. A big part of this functional development thesis was designing the web-page. The theory part includes also information retrieval that makes sure that the information on the web-page is trustworthy. Visualization was an important part of the work so the theory covers footage, taking videos and editing. The last part was about animal welfare and animal protection law because they effect the sport. ; Opinnäytetyön tuotos Lännenratsastuksen karjalajit -sivusto, niitä varten kuvatut videot ja Lännenratsastuksen karjalajien kilpailusäännöt -vihko löytyvät seuraavista osoitteista: • Lännenratsastuksen karjalajit -sivusto: https://karjalajit.wordpress.com/ • Lännenratsastuksen karjalajit -soittolista: https://www.youtube.com/playlist?list=PL_gD7vuGBB6U3SGqFrlc66YrKy2-jPfwn",
+    "kws": [
+      {
+        "label": "hevonen",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q726"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q726"
+        ]
+      },
+      {
+        "label": "nauta",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q830"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q4767951"
+        ]
+      },
+      {
+        "label": "paimennus",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q1484503"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q80962"
+        ]
+      },
+      {
+        "label": "lännenratsastus",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q1323015"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q1323015"
+        ]
+      },
+      {
+        "label": "kilpailu",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q878123"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q841654"
+        ]
+      },
+      {
+        "label": "Asiantuntija",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q381160",
+          "https://www.wikidata.org/wiki/Q1642960",
+          "https://www.wikidata.org/wiki/Q1391344"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q381160"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "sv",
+    "id": "ftunivmalmoe:oai:DiVA.org:mau-20119",
+    "title_or": "Vad är det jag accepterar egentligen? En studie kring medvetenhet och samtycke om webbsidors kakor",
+    "title_eng": "What do I really accept? A study on awareness and consent on website cookies",
+    "abstract_or": NaN,
+    "abstract_eng": "Denna studie syftar till att undersöka om och i sådana fall hur medvetenheten om kakor skiljer sig mellan internetanvändare från två olika generationer. Samt hur internetanvändare från två olika generationer uppfattar företags tillvägagångsätt att informera om vad samtycke till kakor innebär för internetanvändare. Den syftar även till att undersöka vilket samband som finns mellan internanvändares inställning till att dela data och företagens tillvägagångsätt att informera om samtycke på sina webbsidor. Den yngre generationen representerar 18–30 åringar och den äldre generationen representerar 45–60 åringar och har valts då de har introducerats till internet i olika stadier av deras liv. Studien är baserad på en kvantitativ webbaserad enkätundersökning och baserad på svar från 175 respondenter. Resultaten visade att den yngre generationen ansåg sig vara mer medvetna om vad kakor är jämfört med den äldre generationen. Cirka hälften av respondenterna i den yngre generationen och 76% av respondenterna i den äldre generationen ansåg inte att de var medvetna om vad webbsidor använder insamlade data till. Båda generationerna ansåg att webbsidor borde ge tydligare information om hur och vad de använder kakor till. Studiens slutsats indikerar att tydliga informationsrutor om hur och vad delade data används har en positiv påverkan på respondenternas upplevda trygghet till att dela data. ; The purpose of this study is to examine if the awareness of cookies differs between two different generations, and if so, how it differs. The study also examines how two generations perceive the way companies provide information about what consent to cookies means for the internet users. The study also aims to examine whether internet users’ attitude to sharing data is connected to the way companies provide information about consent on their websites. The younger generation represents internet users between 18-30 years and the older generation represents internet users between 45-60 years. They have been chosen because they have been introduced to the internet at different stages of their lives. The study is based on a quantitative web-based survey with answers from 175 respondents. The result showed that the younger generation considers themselves to be more aware of what cookies mean compared to the older generation. About half of the respondents in the younger generation and 76% of the respondents in the older generation did not consider themselves to be aware of what websites uses the collected data for. Both generations felt that websites should provide clearer information on how and what they use cookies for. The study ́s conclusion indicates that clear information notices about how and what shared data is used for has a positive impact on respondents perceived safety to share data.",
+    "kws": [
+      {
+        "label": "Kakor",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q13276"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q178995"
+        ]
+      },
+      {
+        "label": "samtycke",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q231043"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q231043"
+        ]
+      },
+      {
+        "label": "medvetenhet",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q4338318"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q4338318"
+        ]
+      },
+      {
+        "label": "Engineering and Technology",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q96698607"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q11023"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "el",
+    "id": "oai:ojs.pkp.sfu.ca:article/14214",
+    "title_or": "Ο εμπορικός χάρτης της βυζαντινής Θεσσαλονίκης: ιχνηλατώντας τις αγορές της πόλης από τον 9ο αιώνα έως την οθωμανική κατάκτηση.",
+    "title_eng": "The commercial map of Byzantine Thessalonike: tracing the marketplaces of the city from the 9th century until the Ottoman occupation.",
+    "abstract_or": NaN,
+    "abstract_eng": "Based on restricted archaeological evidence and scattered literary sources, the present paper aims to detect the areas of Byzantine Thessalonike, where commercial activity had been developed, traces the extended marketplaces of a large urban centre and attempts to draw, even faintly, the commercial map of the city from the middle Byzantine period until the Ottoman conquest.",
+    "kws": [
+      {
+        "label": "Βυζαντινή περίοδος (9ος-15ος αι.)",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q12544"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q12544"
+        ]
+      },
+      {
+        "label": "Θεσσαλονίκη",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q17151"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q17151"
+        ]
+      },
+      {
+        "label": "εμπόριο",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q601401"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q26643"
+        ]
+      },
+      {
+        "label": "αγορά",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q330284"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q187909"
+        ]
+      },
+      {
+        "label": "Byzantine period (9th-15th c.)",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q12544"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q12544"
+        ]
+      },
+      {
+        "label": "trade/commerce",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q601401"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q26643"
+        ]
+      },
+      {
+        "label": "marketplace",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q330284"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q330284"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "ar",
+    "id": "oai:doaj.org/article:38ae68145e3f49d9b0715ed6d4bac77d",
+    "title_or": "تأثير البيئة في التركيبة الجسمانية لإنسان كهف هوتو في العصر الحجري الوسيط في إيران .",
+    "title_eng": "The impact of the environment on the physical structure of Hutu cave humans in the Middle Stone Age in Iran. ^",
+    "abstract_or": NaN,
+    "abstract_eng": " This study aims to find out the environmental impacts on the physical structure of caves, as well as the various climate factors of coldness and heat, the location of these caves after them and their proximity to the water of rivers and seas, the extent of their impact on the human body, the extent of human adaptation to the natural environment surrounding it, and the extent of the impact of the diet.",
+    "kws": [
+      {
+        "label": "البيئة",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q2249676"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q2249676"
+        ]
+      },
+      {
+        "label": "الانسان",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q5"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q5"
+        ]
+      },
+      {
+        "label": "هوتو",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q192647"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q192647"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "tr",
+    "id": "oai:doaj.org/article:7400286f89834aba9555aec1a5738397",
+    "title_or": NaN,
+    "title_eng": "Being A Grain Supervisor in The Ottoman State: The Example of Haji Ali of Sistova (1749-1755)",
+    "abstract_or": NaN,
+    "abstract_eng": "A grain supervisor is an ofcial who is authorised for the collection and transportation of provisions, and resolution of all possible problems about provisions. Both in wartime and in peacetime, grain supervisors collected grains and assumed important tasks for supplying an army or a city with food. To supply Istanbul, which was the most populated city of the world, the Ottoman State, sent carefully selected supervisors to manage grain production centres. In 1749, Haji Ali of Sistova, was commissioned to ensure the transportation of grains collected in the Rumelian wharves of the Black Sea and from the coastal wharves of the Danube to Istanbul. The amount of grain being sent from these regions to Istanbul met the annual grain need of the city to a great extent. The importance attached to the wharves of the Rumelian part of the Black Sea and to the wharves of the Danube, which were vital for Istanbul, was also reected in the position of grain supervisors. Elevated from voivodeship to ambassadorship and then to governorship, Haji Ali's grain supervision, which constituted a small part of his life, will be addressed in the current study. Thus, both an unknown task performed by Haji Ali of Sistova will be revealed and also, over this example, an attempt will be made to explain the characteristics and tasks of grain supervisors and the difculties they suffered.",
+    "kws": [
+      {
+        "label": "Osmanlı Devleti",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q12560"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q12560"
+        ]
+      },
+      {
+        "label": "Karadeniz",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q166"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q166"
+        ]
+      },
+      {
+        "label": "İskele",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q107296489"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q828909"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "pl",
+    "id": "oai:revues.org:td/3478",
+    "title_or": "Ojczyzna i obczyzna: Irlandia, Polska i Inni",
+    "title_eng": "Homeland and garbage: Ireland, Poland and other",
+    "abstract_or": "Mówiąc o migracjach do Irlandii z czasów “celtyckiego tygrysa”, można rozróżnić dwa etapy. Na początku w latach 1996–2002 migranci odczuwali prawdziwą dumę z rodzimej kultury, w której się wychowali, a jednocześnie wykazywali żywe zainteresowanie irlandzką tradycją. Później jednak, od roku 2002 aż do kryzysu w 2008, nastąpił okres często opisywany jako „bling”, który charakteryzował przepych: nastawienie na materializm oraz brak zainteresowania kulturą i kulturową wymianą. Co za tym idzie, wbrew oczekiwaniom zapoczątkowanym przez nowe fuzje, nie rozwinęła się na szerszą skalę irlandzka literatura inspirowana spotkaniami z „innym”. Niewątpliwie jest to zadziwiające, biorąc pod uwagę, że tak wiele pozycji z kanonu literatury irlandzkiej zrodziło się z otwartości na „obcego/innego” – poczynając od Swifta i Edgeworth po Joyce’a i McGaherna. Mimo to nadal tli się nadzieja, że przybyszom uda się przekształcić irlandzkie mity i doświadczenia – być może nastąpi to poprzez wzbogacenie ich kulturowych narracji o elementy irlandzkiej rzeczywistości – i że fuzja różnych tradycji dyskursywnych doprowadzi do powstania nowej literatury i kultury.",
+    "abstract_eng": "The migrations into the Celtic Tiger (Ireland during its economic boom) seems to have occurred in two phases. The first (ca. 1996 to 2002) saw incomers who were proud of their culture of origin and curious about the Irish tradition. It was followed by a phase of ‘bling’ (2002 to the collapse in 2008) characterized by fast money and little cultural interchange. Society in general seemed more superficial and materialistic, and literature failed to embrace the ‘Other’ as prelude to new fusions. This is surprising, given that many Irish classics – from Swift and Edgeworth to Joyce and McGahern – celebrate the encounter with the ‘Other’. Kiberd argues that Irish myths and experiences might still be reconfigured by incomers, even as their cultural narratives are enriched by their encounter with Ireland. The fusion of the various discursive traditions might lead to new forms in literature and culture, as well as a renewal of consciousness.",
+    "kws": [
+      {
+        "label": "migration",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q1800545",
+          "https://www.wikidata.org/wiki/Q177626"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q177626"
+        ]
+      },
+      {
+        "label": "Irishness",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q111915753"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q25543948"
+        ]
+      },
+      {
+        "label": "globalization",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q7181"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q7181"
+        ]
+      },
+      {
+        "label": "inny/obcy",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q108982186",
+          "https://www.wikidata.org/wiki/Q109014493"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q583580"
+        ]
+      },
+      {
+        "label": "globalizacja",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q7181"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q7181"
+        ]
+      },
+      {
+        "label": "Polska",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q36"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q36"
+        ]
+      },
+      {
+        "label": "Irlandia",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q22890"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q27"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "es",
+    "id": "oai:revues.org:trace/1646",
+    "title_or": "Producción de la cerámica diagnóstica de grupos de alto estatus, en tres sitios del norte de la cuenca de Sayula, Jalisco",
+    "title_eng": "Production of diagnostic ceramics from high status groups, in three sites in the north of the Sayula Basin, Jalisco",
+    "abstract_or": "Con base en el análisis de los materiales cerámicos de los sitios de Cerritos Colorados, La Picota y San Juan Atoyac, se cree que la producción cerámica de los tipos diagnósticos de la fase Sayula era controlada por grupos de elevado estatus social. La élite financiaba la producción cerámica, y por lo tanto establecía reglas en cuanto a la elaboración de las vasijas, la estandarización de sus medidas, su decoración, la carga ideológica de esta última, etc. Esta cerámica cumplía una función particular, relacionada con eventos especiales, tales como los banquetes. No se han identificado los espacios de producción de este material, lo que nos obliga a tomar en cuenta otro tipo de información: por un lado, los criterios que permiten identificar la estandarización de los tipos cerámicos; y por otro, la localización de las fuentes de arcilla y pigmentos. Se distinguen dos categorías importantes dentro de este material: la primera corresponde al complejo de servicio olla-copa-cuenco; la segunda a los tipos decorativos negativo y cloisonné, considerados bienes de prestigio y producidos con una tecnología especializa que no era de conocimiento común entre los artesanos locales.",
+    "abstract_eng": "Based on the analysis of ceramic materials of Cerritos Colorados, La Picota and San Juan Atoyac sites, it is believed that the production of diagnostic pottery for the Sayula phase was controlled by groups of high social status. The elite ruled the ceramic production and established therefore the rules to follow to produce tableware, standardized measures, decoration and related ideological theme, etc. Usually this diagnostic ceramic has a particular function and is used in special events such as banquets. Ceramic production areas have not been identified and we must consider other types of information; on the first hand, the criteria of standardization identification in ceramic types and on the second hand, those of clay and pigment sources. We can observe two major subdivisions: the first corresponds to the service-use complex pot-copa-bowl, the second corresponds to decorative types negative and cloisonné considered as prestige goods and produced with a specialized technology level that was not common knowledge for local craftsmen.",
+    "kws": [
+      {
+        "label": "Elite",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q192797"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q192797"
+        ]
+      },
+      {
+        "label": "standardization",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q369577"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q369577"
+        ]
+      },
+      {
+        "label": "prestige goods",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q109598912"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q109598912"
+        ]
+      },
+      {
+        "label": "estandarización",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q369577"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q369577"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "sl",
+    "id": "oai:ojs.zrc-sazu.si:article/11278",
+    "title_or": "Inštitut za narodnostna vprašanja: Institute for ethnic studies",
+    "title_eng": "Institute for National Issues: Institute for ethnic studies",
+    "abstract_or": ".",
+    "abstract_eng": NaN,
+    "kws": [
+      {
+        "label": "Inštitut za narodnostna vprašanja (Ljubljana)",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q12791410"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q12791410"
+        ]
+      },
+      {
+        "label": "inštituti",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q43229"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q225446"
+        ]
+      },
+      {
+        "label": "zamejski Slovenci",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q2690446"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q3503182"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "uk",
+    "id": "oai:doaj.org/article:2befc9f6cf5742fca6b79bce9ba6d684",
+    "title_or": "Сучасні погляди на європейську криміналістику",
+    "title_eng": "Modern views on European forensics",
+    "abstract_or": "Рецензія on the monograph of famous criminologists, members of the International Congress of Criminalists, Doctors Volodymyr Terekhovych and Elita Nimande \"Collection of Articles 2010-2020\". This is a monographic study in the form of a collection of scientific papers (articles), which were previously published in various journals and collections in English, Latvian and Russian.",
+    "abstract_eng": "Рецензія on the monograph of famous criminologists, members of the International Congress of Criminalists, Doctors Volodymyr Terekhovych and Elita Nimande \"Collection of Articles 2010-2020\". This is a monographic study in the form of a collection of scientific papers (articles), which were previously published in various journals and collections in English, Latvian and Russian.",
+    "kws": [
+      {
+        "label": "Латвійська Республіка",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q2369784"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q211"
+        ]
+      },
+      {
+        "label": "криміналістика",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q43504"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q43504"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "it",
+    "id": "oai:revues.org:mefra/9174",
+    "title_or": "Le ultime acquisizioni dal teatro di Terracina e l’eccezionale iscrizione del triumviro M. Emilio Lepido",
+    "title_eng": "The latest acquisitions from the Terracina theatre and the exceptional inscription of Triumviro M. Emilio Lepido",
+    "abstract_or": "Gli scavi condotti nel teatro di Terracina negli anni 2004-2017 hanno restituito molti materiali di rilevante interesse storico e archeologico, in particolare una statua di barbaro «Orientale» in giallo antico, un’ara per Iuppiter Axur e numerosi frammenti che compongono quasi per intero un’iscrizione con la carriera del triumviro Lepido, unico caso finora noto in Italia. Dopo la presentazione del contesto di scavo, si dà qui la prima edizione dell’eccezionale documento, inquadrabile tra il 37 e il 36 a.C., dal quale apprendiamo, in particolare, che nel 44 a.C. Lepido aveva rivestito per la terza volta la carica di magister equitum di Cesare.",
+    "abstract_eng": "The excavations in Terracina’s ancient theater from 2004 to 2017 have revealed numerous materials of great historical and archaeological interest. Are highlighted a marmor numidicum statue representing an «Oriental» barbarian, an altar dedicated to Iuppiter Axur and numerous fragments which enable to reconstruct almost completely an inscription with the career of the triumvir M. Aemilius Lepidus, a unique case in Italy. After the presentation of the context of the excavation, the paper gives the first analysis of this exceptional document, datable between the years 37 and 36 BC, from which we learn that Lepidus was Cesar’s magister equitum for the third time in 44 BC.",
+    "kws": [
+      {
+        "label": "M. Aemilius Lepidus triumvir",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q224839"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q224839"
+        ]
+      },
+      {
+        "label": "Emilian Forum",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q107612017"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q224839"
+        ]
+      },
+      {
+        "label": "latin inscriptions",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q131628832"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q131937085"
+        ]
+      },
+      {
+        "label": "roman theatre",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q19757"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q19757"
+        ]
+      },
+      {
+        "label": "Terracina",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q128226"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q128226"
+        ]
+      },
+      {
+        "label": "M. Aemilius Lepidus triumviro",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q224839"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q224839"
+        ]
+      },
+      {
+        "label": "Foro Emiliano",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q107612017"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q180212"
+        ]
+      },
+      {
+        "label": "iscrizioni latine",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q131628832"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q181260"
+        ]
+      },
+      {
+        "label": "teatro romano",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q19757"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www.wikidata.org/entity/Q19757"
+        ]
+      }
+    ]
+  }
+]

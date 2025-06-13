@@ -39,6 +39,34 @@ Entities:
 {entities}
 """
 
+DIRECT_WIKIDATA_LINKING_PROMPT = """
+You are a helpful assistant. 
+You are provided with metadata about an academic article: its original language, title, abstract, and author-provided keywords (which may be in any language).
+Your task is to find, for each keyword, the **most relevant Wikidata entity**, and return the following fields:
+
+- The original keyword (as written)
+- The English label of the matched Wikidata entity
+- A brief description of that entity
+- The Wikidata URI (e.g., https://www.wikidata.org/wiki/Q42)
+
+ Output format instructions (MANDATORY):
+
+- Respond **only** with a **pure JSON list**.
+- Do **not** wrap the response in code blocks (e.g., do **not** use triple backticks ```).
+- Do **not** prepend any text such as "Here is the JSON:".
+- Do **not** use Markdown syntax at all.
+- The output must be strictly parsable with `json.loads()` without any preprocessing.
+
+Return the list where each item is an object with the fields:  
+`"keyword"`, `"label"`, `"description"`, and `"uri"`.
+
+Original language of the article: {original_language}  
+Title of the article: {title}  
+Abstract of the article: {abstract}  
+Keywords: {keywords}
+"""
+
+
 
 class PotentialEntitiesGenerationPrompt:
     def __init__(self, number_of_names, original_language, title, abstract, keyword):
@@ -96,3 +124,41 @@ class EntitySelectionPrompt:
             return None
         
 
+class DirectWikidataLinkingPrompt:
+    def __init__(self, language, title, abstract, keywords):
+        self.language = language
+        self.title = title
+        self.abstract = abstract
+        self.keywords = keywords
+
+    def generate_prompt(self):
+        return DIRECT_WIKIDATA_LINKING_PROMPT.format(
+            original_language=self.language,
+            title=self.title,
+            abstract=self.abstract,
+            keywords=self.keywords,
+        )
+
+    def checking_schema_function(self, answer: str):
+        import json
+
+        try:
+            #print("RAW LLM RESPONSE:")
+            #print(answer)
+            parsed = json.loads(answer)
+            if not isinstance(parsed, list):
+                return None
+            validated = []
+            for item in parsed:
+                if not all(k in item for k in ("keyword", "label", "description", "uri")):
+                    continue
+                validated.append({
+                    "keyword": item["keyword"].strip(),
+                    "label": item["label"].strip(),
+                    "description": item["description"].strip(),
+                    "uri": item["uri"].strip()
+                })
+            return validated
+        except Exception as e:
+            print(f"⚠️ JSON parsing error in LLM response: {e}")
+            return None
