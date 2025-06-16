@@ -66,6 +66,25 @@ Abstract of the article: {abstract}
 Keywords: {keywords}
 """
 
+DIRECT_WIKIDATA_LINKING_PROMPT_OLD= """
+We process a scientific article of which we have the TITLE, the ABSTRACT and the KEYWORDS separated by commas.
+
+The language of the article is English but the KEYWORDS can be in different languages.
+
+The goal is to: map each keyword to corresponding URLs of controlled vocabularies of Wikidata or close enough match with Wikidata entries.
+TO DO:
+
+Use the TITLE and ABSTRACT as context. Use this context to suggest a mapping of each keyword to a URL.
+VERIFY for each URL if it actually corresponds to the expected Wikidata entry. To do so, load the Wikidata page: the concept MUST BE in the title of the retrieved Wikidata entry.
+
+Otherwise report the mismatch.
+
+TITLE: Demonstrative pronouns and articles in Egyptian and Coptic ; emergence and development
+
+ABSTRACT: This dissertation investigates the demonstratives in Old Egyptian. It shows that the proper description of the Old Kingdom deictic system delivers key insights into the emergence of the new proclitic forms "pȝ", "tȜ", "nȜ", which later grammaticalize to definite articles. In order to define the features of the Old Kingdom demonstratives, I provide an in-depth introduction into the current methods of analysis of deixis and specificity. I further summarise the Egyptological research, dedicated to the demonstratives in Old Egyptian. Although the temporal frames of this study are confined to the Old Kingdom, I deal extensively with the category of determination in Middle Egyptian, Demotic and Coptic. I extend the reviews with the commentaries, and introduce the original topics, such as determiner compatibilities and syntactic specificity effects. In preparation for the analysis of demonstratives in the Old Kingdom I provide the diachronic, diaphasic, and diastratic features of the core textual records. The analysis section embraces the typological and diatopic traits of Old Kingdom demonstratives, supplemented by the overview of the grammaticalization patterns of Afro-Asiatic deictic roots. I demonstrate the presence of two competing deictic systems in the Old Kingdom Egypt: one based on the joint attentional focus of the interlocutors, operating with "pn" as attention shifter and "pw" as attention tracker; and an alternative one, relying on the distance contrast, utilising "pf" for a distal referent and "pn" for a proximal referent. The attentional system is visibly in decline in the literary discourse, the process possibly triggered by the arrival of the emphatic "pf". It persists, however, in the colloquial stratum, as manifested by the emergence of the recognitional "pȝ", "tȝ", "nȝ". The morphological features suggest that these are the allomorphs of the attention trackers "pw", "tw", "nw", as proven by the change "w" → "ȝ" in deictic and non-deictic lexemes containing the final "w". I put forward the hypothesis ... 
+KEYWORDS: demonstrative pronouns, definite articles, grammaticalization, Old Egyptian, Coptic, Old Kingdom, joint attention, dialects, ddc:417
+"""
+
 
 
 class PotentialEntitiesGenerationPrompt:
@@ -144,20 +163,27 @@ class DirectWikidataLinkingPrompt:
 
         try:
             #print("RAW LLM RESPONSE:")
-            #print(answer)
+            print(answer)
             parsed = json.loads(answer)
             if not isinstance(parsed, list):
+                print("Ha ritornato none, il json non va bene")
                 return None
             validated = []
             for item in parsed:
                 if not all(k in item for k in ("keyword", "label", "description", "uri")):
+                    print("Ha ritornato none, il non ci sono le keyword")
                     continue
-                validated.append({
-                    "keyword": item["keyword"].strip(),
-                    "label": item["label"].strip(),
-                    "description": item["description"].strip(),
-                    "uri": item["uri"].strip()
-                })
+                transformed_uri =  item["uri"].replace("https://", "")
+                transformed_uri = transformed_uri.replace("wiki/", "entity/")
+                first_split = transformed_uri.split('.', 1)
+                www_part = first_split[0]
+                remaining_part = first_split[1]
+                second_split = remaining_part.split('.', 1)
+                wikidata_part = second_split[0]
+                org_entity_part = second_split[1]
+                validated.append("http://" + www_part)  # Aggiunge "http://www"
+                validated.append(wikidata_part)  # Aggiunge "wikidata"
+                validated.append(org_entity_part)  # Aggiunge "org/entity/roba"
             return validated
         except Exception as e:
             print(f"⚠️ JSON parsing error in LLM response: {e}")

@@ -109,7 +109,7 @@ class EntityExtractionPipeline:
             print(f"❌ Failed to filter entities: {e}")
             return []
     
-    def extract_entities(self, language: str, title: str, abstract: str, keywords: str, num_entities: int = 1, num_generated_names: int = 10):
+    def run (self, language: str, title: str, abstract: str, keywords: str, num_entities: int = 1, num_generated_names: int = 10):
         """
         Complete pipeline to extract relevant entities from a research paper.
         
@@ -175,7 +175,7 @@ class DirectWikidataLinkingPipeline:
         """
         self.llm_client = llm_client
 
-    def link_keywords_to_uris(self, language: str, title: str, abstract: str, keywords: str):
+    def run(self, language: str, title: str, abstract: str, keywords: str):
         """
         Use LLM to directly link paper keywords to the most relevant Wikidata URIs.
 

@@ -50,7 +50,16 @@ class OpenAIWebSearchClient(LLMClient):
                 {"role": "user", "content": user_message}
             ],
             model=self.model_name,
-            web_search_options={}
+            web_search_options={
+                 "user_location": {
+                    "type": "approximate",
+                    "approximate": {
+                        "country": "IT",
+                        "city": "Milan",
+                        "region": "Lombardia",
+                    }
+                }
+            }
         )
         return completion.choices[0].message.content
     
