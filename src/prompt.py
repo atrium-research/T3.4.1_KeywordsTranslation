@@ -163,7 +163,7 @@ class DirectWikidataLinkingPrompt:
 
         try:
             #print("RAW LLM RESPONSE:")
-            print(answer)
+            # print(answer)
             parsed = json.loads(answer)
             if not isinstance(parsed, list):
                 print("Ha ritornato none, il json non va bene")

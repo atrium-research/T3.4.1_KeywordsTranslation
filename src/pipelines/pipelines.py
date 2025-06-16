@@ -1,18 +1,36 @@
 from ..utils import query_best_matches_wikidata 
-from ..clients import LLMClient
+from ..clients import LLMClient, OpenAIClient, GroqClient, AnthropicClient, OpenAIWebSearchClient
 from ..prompt import PotentialEntitiesGenerationPrompt, EntitySelectionPrompt, DirectWikidataLinkingPrompt
+import os
 
 class EntityExtractionPipeline:
     """Pipeline for extracting entities from research papers using any LLM client."""
     
-    def __init__(self, llm_client: LLMClient):
+    def __init__(self, client_type: str, model_name: str, api_key: str = None):
         """
         Initialize the pipeline with an LLM client.
         
         Args:
-            llm_client: Instance of LLMClient (or its subclasses)
+            client_type: Type of client ('openai', 'groq', or 'claude')
+            model_name: Name of the model to use
+            api_key: API key for the service (if None, will use environment variables)
         """
-        self.llm_client = llm_client
+        if api_key is None:
+            if client_type == 'openai':
+                api_key = os.getenv('OPENAI_API_KEY')
+            elif client_type == 'groq':
+                api_key = os.getenv('GROQ_API_KEY')
+            elif client_type == 'claude':
+                api_key = os.getenv('ANTHROPIC_API_KEY')
+        
+        if client_type == 'openai':
+            self.llm_client = OpenAIClient(api_key, model_name)
+        elif client_type == 'groq':
+            self.llm_client = GroqClient(api_key, model_name)
+        elif client_type == 'claude':
+            self.llm_client = AnthropicClient(api_key, model_name)
+        else:
+            raise ValueError(f"Unsupported client type: {client_type}. Use 'openai', 'groq', or 'claude'")
     
     def generate_potential_entities(self, language: str, title: str, abstract: str, keywords: str, num_names: int = 10):
         """
@@ -166,14 +184,18 @@ class EntityExtractionPipeline:
 class DirectWikidataLinkingPipeline:
     """Pipeline for directly linking paper keywords to Wikidata URIs using an LLM."""
 
-    def __init__(self, llm_client: LLMClient):
+    def __init__(self, model_name: str, api_key: str = None):
         """
-        Initialize the pipeline with an LLM client.
+        Initialize the pipeline with OpenAI WebSearch client.
 
         Args:
-            llm_client: Instance of LLMClient (or its subclasses)
+            model_name: Name of the OpenAI model to use
+            api_key: OpenAI API key (if None, will use OPENAI_API_KEY environment variable)
         """
-        self.llm_client = llm_client
+        if api_key is None:
+            api_key = os.getenv('OPENAI_API_KEY')
+        
+        self.llm_client = OpenAIWebSearchClient(api_key, model_name)
 
     def run(self, language: str, title: str, abstract: str, keywords: str):
         """

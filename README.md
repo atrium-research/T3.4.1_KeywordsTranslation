@@ -1,6 +1,9 @@
-## News (30/05/2025)
-Updated the project structure and added support for more openai clients. Also added the possibility of using the openai websearch
+## News (16/06/2025)
 
+The system has been enhanced with web search capabilities and improved evaluation framework:
+- **OpenAI Web Search Integration**: Added support for OpenAI's GPT-4o with web search capabilities for more accurate and up-to-date entity linking
+- **Enhanced Evaluation System**: Comprehensive evaluation outputs with support for multiple LLM providers (OpenAI, Groq, Anthropic)
+- **Modular Architecture**: Moved evaluation notebooks to dedicated `notebooks/` directory for better organization
 
 ## News (24/03/2025)
 Our methodology has been presented in a paper accepted at the MDTT 2025 Conference (https://mdtt2025.web.auth.gr/en/)! In the paper, we evaluated our methodology on a newly created dataset of keyword mappings from the GoTriple portal. The evaluation_files of the repo contains the dataset file and the notebook used for the evaluation. 
@@ -73,7 +76,9 @@ linked_entities = direct_pipeline.run(
 
 ### Evaluation
 
-Run `evaluation.ipynb` to evaluate the system performance using the provided dataset `data/Dset_Eval_KW_Alignment_Eval_def.xlsx`.
+Run `notebooks/evaluation.ipynb` to evaluate the system performance using the provided dataset `data/Dset_Eval_KW_Alignment_Eval_def.xlsx`. 
+
+The evaluation system supports multiple LLM providers and generates detailed performance metrics. Results are automatically saved to `data/evaluation_output/` with both raw and adjusted evaluation scores.
 
 ## How to run the experiments
 
