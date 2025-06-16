@@ -88,44 +88,32 @@ def parse_excel_file(filepath: str) -> list:
     
     return result
 
-#quante delle entità corrette sono state effettivamente recuperate.
-def compute_recall(correct_uris, retrieved_uris):
-    if len(correct_uris) == 0:
-        return 0
-    else:
-        return len(set(correct_uris) & set(retrieved_uris)) / len(correct_uris)
-
-#quante delle entità recuperate sono corrette.
-def compute_precision(correct_uris, retrieved_uris):
-    if len(retrieved_uris) == 0:
-        return 0
-    else:
-        return len(set(correct_uris) & set(retrieved_uris)) / len(retrieved_uris)
 
 
-def query_best_matches_wikidata(query_term, language = "en", number_of_results=10):
-    WIKIDATA_API_URL = "https://www.wikidata.org/w/api.php"
-    params = {
-        'action': 'wbsearchentities',
-        'search': query_term,
-        'language': language,
-        'format': 'json'
-    }
-    response = requests.get(WIKIDATA_API_URL, params=params)
+
+# def query_best_matches_wikidata(query_term, language = "en", number_of_results=10):
+#     WIKIDATA_API_URL = "https://www.wikidata.org/w/api.php"
+#     params = {
+#         'action': 'wbsearchentities',
+#         'search': query_term,
+#         'language': language,
+#         'format': 'json'
+#     }
+#     response = requests.get(WIKIDATA_API_URL, params=params)
     
-    response = response.json().get('search', [])
+#     response = response.json().get('search', [])
     
-    best_match = None
-    highest_score = 0
-    results_with_scores = []
-    for entity in response:
-        result = {}
-        result['label'] = entity['label']
-        result['uri'] = entity['concepturi']
-        if 'description' in entity:
-            result['description'] = entity['description']
-        else:
-            result['description'] = ""
-        result['score'] = SequenceMatcher(None, query_term, entity['label']).ratio()
-        results_with_scores.append(result)
-    return sorted(results_with_scores, key=lambda x: x['score'], reverse=True)[:number_of_results]
+#     best_match = None
+#     highest_score = 0
+#     results_with_scores = []
+#     for entity in response:
+#         result = {}
+#         result['label'] = entity['label']
+#         result['uri'] = entity['concepturi']
+#         if 'description' in entity:
+#             result['description'] = entity['description']
+#         else:
+#             result['description'] = ""
+#         result['score'] = SequenceMatcher(None, query_term, entity['label']).ratio()
+#         results_with_scores.append(result)
+#     return sorted(results_with_scores, key=lambda x: x['score'], reverse=True)[:number_of_results]

@@ -1,6 +1,6 @@
-from ..utils import query_best_matches_wikidata 
+from ..utils.wikidata_data import query_best_matches_wikidata 
 from ..clients import LLMClient, OpenAIClient, GroqClient, AnthropicClient, OpenAIWebSearchClient
-from ..prompt import PotentialEntitiesGenerationPrompt, EntitySelectionPrompt, DirectWikidataLinkingPrompt
+from ..utils.prompt import PotentialEntitiesGenerationPrompt, EntitySelectionPrompt, DirectWikidataLinkingPrompt
 import os
 
 class EntityExtractionPipeline:
@@ -39,26 +39,18 @@ class EntityExtractionPipeline:
         Returns:
             List of generated entities or None if parsing fails
         """
-        # print("🔍 Generating potential entities...")
-        
-        # Create prompt
         prompt_object = PotentialEntitiesGenerationPrompt(
             num_names, language, title, abstract, keywords
         )
         
         prompt = prompt_object.generate_prompt()
         
-        # Call LLM
         try:
             response = self.llm_client.generate_response(
                 "You are a helpful assistant.", 
                 prompt
             )
-            # print(f"✅ LLM Response: {response}")
-            
-            # Parse response
             entities = prompt_object.checking_schema_function(response)
-            # print(f"📋 Generated {len(entities)} entities")
             return entities
             
         except Exception as e:
@@ -72,14 +64,11 @@ class EntityExtractionPipeline:
         Returns:
             List of Wikidata entities with metadata
         """
-        # print("🌐 Querying Wikidata for matches...")
-        
         wikidata_entities = []
         for entity in generated_entities:
             matches = query_best_matches_wikidata(entity)
             wikidata_entities.extend(matches)
         
-        # print(f"📊 Found {len(wikidata_entities)} Wikidata matches")
         return wikidata_entities
     
     def format_wikidata_entities(self, wikidata_entities):
@@ -102,25 +91,15 @@ class EntityExtractionPipeline:
         Returns:
             List of selected entities or None if parsing fails
         """
-        # print(f"🎯 Filtering to select top {num_entities} entities...")
-        
-        # Create selection prompt
-        prompt_object = EntitySelectionPrompt(
-            num_entities, language, title, abstract, keywords, wikidata_entities_string
-        )
+        prompt_object = EntitySelectionPrompt(num_entities, language, title, abstract, keywords, wikidata_entities_string)
         prompt = prompt_object.generate_prompt()
         
-        # Call LLM
         try:
             response = self.llm_client.generate_response(
                 "You are a helpful assistant.",
                 prompt
             )
-            # print(f"✅ Selection Response: {response}")
-            
-            # Parse response
             selected_entities = prompt_object.checking_schema_function(response)
-            # print(f"🎉 Selected {len(selected_entities)} final entities")
             return selected_entities
             
         except Exception as e:
@@ -147,10 +126,6 @@ class EntityExtractionPipeline:
         Returns:
             List of selected entities or [] if process fails
         """
-        # print("🚀 Starting entity extraction pipeline...")
-        # print(f"📄 Paper: {title}")
-        # print("-" * 50)
-        
         # Step 1: Generate potential entities
         generated_entities = self.generate_potential_entities(
             language, title, abstract, keywords, num_generated_names
@@ -174,7 +149,6 @@ class EntityExtractionPipeline:
         
         if selected_entities:
             pass
-            # print("✨ Entity extraction completed successfully!")
         else:
             print("❌ Entity extraction failed")
         
@@ -211,9 +185,6 @@ class DirectWikidataLinkingPipeline:
             List of dictionaries with fields 'keyword', 'label', 'description', and 'uri',
             or None if the parsing fails.
         """
-        # print(" Linking keywords to Wikidata URIs...")
-
-        # Create prompt object
         prompt_object = DirectWikidataLinkingPrompt(
             language=language,
             title=title,
@@ -223,16 +194,11 @@ class DirectWikidataLinkingPipeline:
         prompt = prompt_object.generate_prompt()
 
         try:
-            # Call the LLM
             response = self.llm_client.generate_response(
                 "You are a knowledgeable assistant helping map research concepts to Wikidata.",
                 prompt
             )
-            #print(f"LLM Response: {response}")
-
-            # Parse and validate the response using the defined schema function
             linked_entities = prompt_object.checking_schema_function(response)
-            #print(f"Found {len(linked_entities)} linked entities")
 
             return linked_entities
 
