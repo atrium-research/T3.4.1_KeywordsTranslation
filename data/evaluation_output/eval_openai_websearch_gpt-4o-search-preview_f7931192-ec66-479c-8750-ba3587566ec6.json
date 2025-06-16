@@ -1,0 +1,2369 @@
+[
+  {
+    "language": "fi",
+    "id": "fttheseus:oai:www.theseus.fi:10024/146560",
+    "title_or": "Lännenratsastuksen karjalajit : Internet-sivuston luominen ja havainnollistavan materiaalin tuottaminen",
+    "title_eng": "Species of west-bottomed cattle: Creation of a website and production of illustrative material",
+    "abstract_or": NaN,
+    "abstract_eng": "Opinnäytetyö oli toiminnallinen kehittämistyö, jossa luotiin Internet-sivusto ja karjalajien sääntövihko (epävirallinen). Sivuja mainostettiin erityisesti sosiaalisessa mediassa. Sivut on rakennettu WordPress-alustalle. Sivustolla on havainnollistava, informatiivinen ja tiivis esittely Suomessa harrastettavista karjalajeista ja karjanpaimentamisesta. Esitellyt lajit olivat Cattle Penning ja Team Penning sekä Team Sorting. Aiheen selkeyttämiseen lukijalle sivustolla käytettiin valokuvia, piirroksia ja videoita. Kuvamateriaali kuvattiin vuosina 2015-2017 Suomessa ja Ruotsissa. Piirrokset tehtiin Adobe PhotoShopilla. Kuvat piirsi opinnäytetyöntekijä itse. Opinnäytetyössä panostettiin visuaalisuuteen lukijan mielenkiinnon herättämiseksi. Luodun sivuston lisäksi opinnäytetyössä käännettiin lännenratsastuksen karjalajien säännöt suomeksi ja ne koottiin vihkoksi. Sääntöjen lähteenä käytettiin American Quarter Horse Associationin (AQHA) sääntökirjaa. Säännöt löytyvät liitteenä sivustolta. Säännöt ovat epäviralliset. Opinnäytetyön toimeksiantaja oli karjakursseja ja karjalajien harjoituskilpailuja järjestävä Launosten Kartano. Opinnäytetyöllä pyrittiin parantamaan lajin tunnettavuutta harrastajamäärän lisäämiseksi ja lajin kehittymiseksi. Sivujen avulla lajista tietämätön pystyy muodostamaan itselleen helposti kokonaiskuvan karjalajeista ja karjanpaimentamisesta. Kynnys alkeiskurssille menemiselle on matalampi, kun lajiin on mahdollista tutustua etukäteen Internetissä. Harrastajamäärän kasvamisen myötä kysyntä lisääntyy ja kursseja tarjoavien yritysten määrä voi kasvaa. Tällöin myös ulkomaalaisten kouluttajien kysyntä lisääntyy, jolloin yrittäjien ja harrastajien tietotaitotaso paranee. Laji on tullut Suomeen 2008, jolloin on järjestetty ensimmäinen karjakurssi Ylä-Savossa. Toiminnallisen kehittämistyön taustateoriaan kuului olennaisena osana Internet-sivujen rakentaminen. Sivujen hyvän rakenteen lisäksi teoriassa käsiteltiin tiedonhakua, jonka avulla varmistetaan luotettavan tiedon löytäminen sivuston materiaaliksi. Työn visuaalisuuden takia kuvamateriaali ja videokuvaus sekä editointi olivat tärkeä osa teoriaa. Viimeisenä käsiteltiin eläinten hyvinvointia ja eläinsuojelulakia, joka vaikuttaa karjalajien harrastamiseen. ; The thesis is a functional development work. It includes a web-page and an unofficial rulebook about cattle working in Western riding. The web-page was advertised especially in social media and it is created on WordPress platform. The page includes illustrative, informative and compact introduction of cattle working in Finland and cattle herding. The sport introduction concerns Cattle Penning and Team Penning and Team Sorting. Photos, computer drawings and videos were used to help the reader to clarify the subject. The photos were taken in years 2015 to 2017 in Finland and Sweden. The drawings were made with Abode PhotoShop. They were made by the author of the thesis. Visualization was an important part of the thesis because it raises the reader’s interest. Along with the web-page the sport rules were translated into Finnish and collected to one leaflet. The rules were translated from the rules of the American Quarter Horse Association. The translated rules are found from the web-page as an attachment. They are still unofficial. The client of the thesis was Launosten Kartano that arranges cattle courses and practice competitions. The thesis aimed to improve the recognizability of the sport to increase the number of hobbyists and to develop the sport. The web-page offers an unaware person a general view about cattle working and herding. The threshold for attending a basic cattle course is lower when the person can familiarize with this sport in advance. When the amount of hobbyists rises there will be more courses when the demand increases. This way the amount of companies that offer cattle courses can grow. Also, when there is more demand there can be more foreign trainers which improves the level of hobbyists and entrepreneurs. The sport has come to Finland in 2008 when the first cattle course was organized in North Savo. A big part of this functional development thesis was designing the web-page. The theory part includes also information retrieval that makes sure that the information on the web-page is trustworthy. Visualization was an important part of the work so the theory covers footage, taking videos and editing. The last part was about animal welfare and animal protection law because they effect the sport. ; Opinnäytetyön tuotos Lännenratsastuksen karjalajit -sivusto, niitä varten kuvatut videot ja Lännenratsastuksen karjalajien kilpailusäännöt -vihko löytyvät seuraavista osoitteista: • Lännenratsastuksen karjalajit -sivusto: https://karjalajit.wordpress.com/ • Lännenratsastuksen karjalajit -soittolista: https://www.youtube.com/playlist?list=PL_gD7vuGBB6U3SGqFrlc66YrKy2-jPfwn",
+    "kws": [
+      {
+        "label": "hevonen",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q726"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q726"
+        ]
+      },
+      {
+        "label": "nauta",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q830"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q830"
+        ]
+      },
+      {
+        "label": "paimennus",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q1484503"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1053008"
+        ]
+      },
+      {
+        "label": "lännenratsastus",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q1323015"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1131975"
+        ]
+      },
+      {
+        "label": "kilpailu",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q878123"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q185785"
+        ]
+      },
+      {
+        "label": "Asiantuntija",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q381160",
+          "https://www.wikidata.org/wiki/Q1642960",
+          "https://www.wikidata.org/wiki/Q1391344"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q188860"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "sv",
+    "id": "ftunivmalmoe:oai:DiVA.org:mau-20119",
+    "title_or": "Vad är det jag accepterar egentligen? En studie kring medvetenhet och samtycke om webbsidors kakor",
+    "title_eng": "What do I really accept? A study on awareness and consent on website cookies",
+    "abstract_or": NaN,
+    "abstract_eng": "Denna studie syftar till att undersöka om och i sådana fall hur medvetenheten om kakor skiljer sig mellan internetanvändare från två olika generationer. Samt hur internetanvändare från två olika generationer uppfattar företags tillvägagångsätt att informera om vad samtycke till kakor innebär för internetanvändare. Den syftar även till att undersöka vilket samband som finns mellan internanvändares inställning till att dela data och företagens tillvägagångsätt att informera om samtycke på sina webbsidor. Den yngre generationen representerar 18–30 åringar och den äldre generationen representerar 45–60 åringar och har valts då de har introducerats till internet i olika stadier av deras liv. Studien är baserad på en kvantitativ webbaserad enkätundersökning och baserad på svar från 175 respondenter. Resultaten visade att den yngre generationen ansåg sig vara mer medvetna om vad kakor är jämfört med den äldre generationen. Cirka hälften av respondenterna i den yngre generationen och 76% av respondenterna i den äldre generationen ansåg inte att de var medvetna om vad webbsidor använder insamlade data till. Båda generationerna ansåg att webbsidor borde ge tydligare information om hur och vad de använder kakor till. Studiens slutsats indikerar att tydliga informationsrutor om hur och vad delade data används har en positiv påverkan på respondenternas upplevda trygghet till att dela data. ; The purpose of this study is to examine if the awareness of cookies differs between two different generations, and if so, how it differs. The study also examines how two generations perceive the way companies provide information about what consent to cookies means for the internet users. The study also aims to examine whether internet users’ attitude to sharing data is connected to the way companies provide information about consent on their websites. The younger generation represents internet users between 18-30 years and the older generation represents internet users between 45-60 years. They have been chosen because they have been introduced to the internet at different stages of their lives. The study is based on a quantitative web-based survey with answers from 175 respondents. The result showed that the younger generation considers themselves to be more aware of what cookies mean compared to the older generation. About half of the respondents in the younger generation and 76% of the respondents in the older generation did not consider themselves to be aware of what websites uses the collected data for. Both generations felt that websites should provide clearer information on how and what they use cookies for. The study ́s conclusion indicates that clear information notices about how and what shared data is used for has a positive impact on respondents perceived safety to share data.",
+    "kws": [
+      {
+        "label": "Kakor",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q13276"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q9141"
+        ]
+      },
+      {
+        "label": "samtycke",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q231043"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q18123741"
+        ]
+      },
+      {
+        "label": "medvetenhet",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q4338318"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q7087"
+        ]
+      },
+      {
+        "label": "Engineering and Technology",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q96698607"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q11023"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "el",
+    "id": "oai:ojs.pkp.sfu.ca:article/14214",
+    "title_or": "Ο εμπορικός χάρτης της βυζαντινής Θεσσαλονίκης: ιχνηλατώντας τις αγορές της πόλης από τον 9ο αιώνα έως την οθωμανική κατάκτηση.",
+    "title_eng": "The commercial map of Byzantine Thessalonike: tracing the marketplaces of the city from the 9th century until the Ottoman occupation.",
+    "abstract_or": NaN,
+    "abstract_eng": "Based on restricted archaeological evidence and scattered literary sources, the present paper aims to detect the areas of Byzantine Thessalonike, where commercial activity had been developed, traces the extended marketplaces of a large urban centre and attempts to draw, even faintly, the commercial map of the city from the middle Byzantine period until the Ottoman conquest.",
+    "kws": [
+      {
+        "label": "Βυζαντινή περίοδος (9ος-15ος αι.)",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q12544"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q12544"
+        ]
+      },
+      {
+        "label": "Θεσσαλονίκη",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q17151"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q17151"
+        ]
+      },
+      {
+        "label": "εμπόριο",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q601401"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q12047392"
+        ]
+      },
+      {
+        "label": "αγορά",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q330284"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q132186"
+        ]
+      },
+      {
+        "label": "Byzantine period (9th-15th c.)",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q12544"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q12544"
+        ]
+      },
+      {
+        "label": "trade/commerce",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q601401"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q601401",
+          "http://www",
+          "wikidata",
+          "org/entity/Q26643"
+        ]
+      },
+      {
+        "label": "marketplace",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q330284"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q330284"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "ar",
+    "id": "oai:doaj.org/article:38ae68145e3f49d9b0715ed6d4bac77d",
+    "title_or": "تأثير البيئة في التركيبة الجسمانية لإنسان كهف هوتو في العصر الحجري الوسيط في إيران .",
+    "title_eng": "The impact of the environment on the physical structure of Hutu cave humans in the Middle Stone Age in Iran. ^",
+    "abstract_or": NaN,
+    "abstract_eng": " This study aims to find out the environmental impacts on the physical structure of caves, as well as the various climate factors of coldness and heat, the location of these caves after them and their proximity to the water of rivers and seas, the extent of their impact on the human body, the extent of human adaptation to the natural environment surrounding it, and the extent of the impact of the diet.",
+    "kws": [
+      {
+        "label": "البيئة",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q2249676"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q574"
+        ]
+      },
+      {
+        "label": "الانسان",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q5"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q5"
+        ]
+      },
+      {
+        "label": "هوتو",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q192647"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q591334"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "tr",
+    "id": "oai:doaj.org/article:7400286f89834aba9555aec1a5738397",
+    "title_or": NaN,
+    "title_eng": "Being A Grain Supervisor in The Ottoman State: The Example of Haji Ali of Sistova (1749-1755)",
+    "abstract_or": NaN,
+    "abstract_eng": "A grain supervisor is an ofcial who is authorised for the collection and transportation of provisions, and resolution of all possible problems about provisions. Both in wartime and in peacetime, grain supervisors collected grains and assumed important tasks for supplying an army or a city with food. To supply Istanbul, which was the most populated city of the world, the Ottoman State, sent carefully selected supervisors to manage grain production centres. In 1749, Haji Ali of Sistova, was commissioned to ensure the transportation of grains collected in the Rumelian wharves of the Black Sea and from the coastal wharves of the Danube to Istanbul. The amount of grain being sent from these regions to Istanbul met the annual grain need of the city to a great extent. The importance attached to the wharves of the Rumelian part of the Black Sea and to the wharves of the Danube, which were vital for Istanbul, was also reected in the position of grain supervisors. Elevated from voivodeship to ambassadorship and then to governorship, Haji Ali's grain supervision, which constituted a small part of his life, will be addressed in the current study. Thus, both an unknown task performed by Haji Ali of Sistova will be revealed and also, over this example, an attempt will be made to explain the characteristics and tasks of grain supervisors and the difculties they suffered.",
+    "kws": [
+      {
+        "label": "Osmanlı Devleti",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q12560"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q12560"
+        ]
+      },
+      {
+        "label": "Karadeniz",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q166"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q165"
+        ]
+      },
+      {
+        "label": "İskele",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q107296489"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q556070"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "pl",
+    "id": "oai:revues.org:td/3478",
+    "title_or": "Ojczyzna i obczyzna: Irlandia, Polska i Inni",
+    "title_eng": "Homeland and garbage: Ireland, Poland and other",
+    "abstract_or": "Mówiąc o migracjach do Irlandii z czasów “celtyckiego tygrysa”, można rozróżnić dwa etapy. Na początku w latach 1996–2002 migranci odczuwali prawdziwą dumę z rodzimej kultury, w której się wychowali, a jednocześnie wykazywali żywe zainteresowanie irlandzką tradycją. Później jednak, od roku 2002 aż do kryzysu w 2008, nastąpił okres często opisywany jako „bling”, który charakteryzował przepych: nastawienie na materializm oraz brak zainteresowania kulturą i kulturową wymianą. Co za tym idzie, wbrew oczekiwaniom zapoczątkowanym przez nowe fuzje, nie rozwinęła się na szerszą skalę irlandzka literatura inspirowana spotkaniami z „innym”. Niewątpliwie jest to zadziwiające, biorąc pod uwagę, że tak wiele pozycji z kanonu literatury irlandzkiej zrodziło się z otwartości na „obcego/innego” – poczynając od Swifta i Edgeworth po Joyce’a i McGaherna. Mimo to nadal tli się nadzieja, że przybyszom uda się przekształcić irlandzkie mity i doświadczenia – być może nastąpi to poprzez wzbogacenie ich kulturowych narracji o elementy irlandzkiej rzeczywistości – i że fuzja różnych tradycji dyskursywnych doprowadzi do powstania nowej literatury i kultury.",
+    "abstract_eng": "The migrations into the Celtic Tiger (Ireland during its economic boom) seems to have occurred in two phases. The first (ca. 1996 to 2002) saw incomers who were proud of their culture of origin and curious about the Irish tradition. It was followed by a phase of ‘bling’ (2002 to the collapse in 2008) characterized by fast money and little cultural interchange. Society in general seemed more superficial and materialistic, and literature failed to embrace the ‘Other’ as prelude to new fusions. This is surprising, given that many Irish classics – from Swift and Edgeworth to Joyce and McGahern – celebrate the encounter with the ‘Other’. Kiberd argues that Irish myths and experiences might still be reconfigured by incomers, even as their cultural narratives are enriched by their encounter with Ireland. The fusion of the various discursive traditions might lead to new forms in literature and culture, as well as a renewal of consciousness.",
+    "kws": [
+      {
+        "label": "migration",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q1800545",
+          "https://www.wikidata.org/wiki/Q177626"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q177626"
+        ]
+      },
+      {
+        "label": "Irishness",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q111915753"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q170826"
+        ]
+      },
+      {
+        "label": "globalization",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q7181"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q7181"
+        ]
+      },
+      {
+        "label": "inny/obcy",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q108982186",
+          "https://www.wikidata.org/wiki/Q109014493"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q11028",
+          "http://www",
+          "wikidata",
+          "org/entity/Q131339"
+        ]
+      },
+      {
+        "label": "globalizacja",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q7181"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q7181"
+        ]
+      },
+      {
+        "label": "Polska",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q36"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q36"
+        ]
+      },
+      {
+        "label": "Irlandia",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q22890"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q27"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "es",
+    "id": "oai:revues.org:trace/1646",
+    "title_or": "Producción de la cerámica diagnóstica de grupos de alto estatus, en tres sitios del norte de la cuenca de Sayula, Jalisco",
+    "title_eng": "Production of diagnostic ceramics from high status groups, in three sites in the north of the Sayula Basin, Jalisco",
+    "abstract_or": "Con base en el análisis de los materiales cerámicos de los sitios de Cerritos Colorados, La Picota y San Juan Atoyac, se cree que la producción cerámica de los tipos diagnósticos de la fase Sayula era controlada por grupos de elevado estatus social. La élite financiaba la producción cerámica, y por lo tanto establecía reglas en cuanto a la elaboración de las vasijas, la estandarización de sus medidas, su decoración, la carga ideológica de esta última, etc. Esta cerámica cumplía una función particular, relacionada con eventos especiales, tales como los banquetes. No se han identificado los espacios de producción de este material, lo que nos obliga a tomar en cuenta otro tipo de información: por un lado, los criterios que permiten identificar la estandarización de los tipos cerámicos; y por otro, la localización de las fuentes de arcilla y pigmentos. Se distinguen dos categorías importantes dentro de este material: la primera corresponde al complejo de servicio olla-copa-cuenco; la segunda a los tipos decorativos negativo y cloisonné, considerados bienes de prestigio y producidos con una tecnología especializa que no era de conocimiento común entre los artesanos locales.",
+    "abstract_eng": "Based on the analysis of ceramic materials of Cerritos Colorados, La Picota and San Juan Atoyac sites, it is believed that the production of diagnostic pottery for the Sayula phase was controlled by groups of high social status. The elite ruled the ceramic production and established therefore the rules to follow to produce tableware, standardized measures, decoration and related ideological theme, etc. Usually this diagnostic ceramic has a particular function and is used in special events such as banquets. Ceramic production areas have not been identified and we must consider other types of information; on the first hand, the criteria of standardization identification in ceramic types and on the second hand, those of clay and pigment sources. We can observe two major subdivisions: the first corresponds to the service-use complex pot-copa-bowl, the second corresponds to decorative types negative and cloisonné considered as prestige goods and produced with a specialized technology level that was not common knowledge for local craftsmen.",
+    "kws": [
+      {
+        "label": "Elite",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q192797"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q192797"
+        ]
+      },
+      {
+        "label": "standardization",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q369577"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q369577"
+        ]
+      },
+      {
+        "label": "prestige goods",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q109598912"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q949715"
+        ]
+      },
+      {
+        "label": "estandarización",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q369577"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q369577"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "sl",
+    "id": "oai:ojs.zrc-sazu.si:article/11278",
+    "title_or": "Inštitut za narodnostna vprašanja: Institute for ethnic studies",
+    "title_eng": "Institute for National Issues: Institute for ethnic studies",
+    "abstract_or": ".",
+    "abstract_eng": NaN,
+    "kws": [
+      {
+        "label": "Inštitut za narodnostna vprašanja (Ljubljana)",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q12791410"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1177030"
+        ]
+      },
+      {
+        "label": "inštituti",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q43229"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q178706"
+        ]
+      },
+      {
+        "label": "zamejski Slovenci",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q2690446"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q2690446"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "uk",
+    "id": "oai:doaj.org/article:2befc9f6cf5742fca6b79bce9ba6d684",
+    "title_or": "Сучасні погляди на європейську криміналістику",
+    "title_eng": "Modern views on European forensics",
+    "abstract_or": "Рецензія on the monograph of famous criminologists, members of the International Congress of Criminalists, Doctors Volodymyr Terekhovych and Elita Nimande \"Collection of Articles 2010-2020\". This is a monographic study in the form of a collection of scientific papers (articles), which were previously published in various journals and collections in English, Latvian and Russian.",
+    "abstract_eng": "Рецензія on the monograph of famous criminologists, members of the International Congress of Criminalists, Doctors Volodymyr Terekhovych and Elita Nimande \"Collection of Articles 2010-2020\". This is a monographic study in the form of a collection of scientific papers (articles), which were previously published in various journals and collections in English, Latvian and Russian.",
+    "kws": [
+      {
+        "label": "Латвійська Республіка",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q2369784"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q211"
+        ]
+      },
+      {
+        "label": "криміналістика",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q43504"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q495304"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "it",
+    "id": "oai:revues.org:mefra/9174",
+    "title_or": "Le ultime acquisizioni dal teatro di Terracina e l’eccezionale iscrizione del triumviro M. Emilio Lepido",
+    "title_eng": "The latest acquisitions from the Terracina theatre and the exceptional inscription of Triumviro M. Emilio Lepido",
+    "abstract_or": "Gli scavi condotti nel teatro di Terracina negli anni 2004-2017 hanno restituito molti materiali di rilevante interesse storico e archeologico, in particolare una statua di barbaro «Orientale» in giallo antico, un’ara per Iuppiter Axur e numerosi frammenti che compongono quasi per intero un’iscrizione con la carriera del triumviro Lepido, unico caso finora noto in Italia. Dopo la presentazione del contesto di scavo, si dà qui la prima edizione dell’eccezionale documento, inquadrabile tra il 37 e il 36 a.C., dal quale apprendiamo, in particolare, che nel 44 a.C. Lepido aveva rivestito per la terza volta la carica di magister equitum di Cesare.",
+    "abstract_eng": "The excavations in Terracina’s ancient theater from 2004 to 2017 have revealed numerous materials of great historical and archaeological interest. Are highlighted a marmor numidicum statue representing an «Oriental» barbarian, an altar dedicated to Iuppiter Axur and numerous fragments which enable to reconstruct almost completely an inscription with the career of the triumvir M. Aemilius Lepidus, a unique case in Italy. After the presentation of the context of the excavation, the paper gives the first analysis of this exceptional document, datable between the years 37 and 36 BC, from which we learn that Lepidus was Cesar’s magister equitum for the third time in 44 BC.",
+    "kws": [
+      {
+        "label": "M. Aemilius Lepidus triumvir",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q224839"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q105452"
+        ]
+      },
+      {
+        "label": "Emilian Forum",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q107612017"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1062780"
+        ]
+      },
+      {
+        "label": "latin inscriptions",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q131628832"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q174782"
+        ]
+      },
+      {
+        "label": "roman theatre",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q19757"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q11780"
+        ]
+      },
+      {
+        "label": "Terracina",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q128226"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q128226"
+        ]
+      },
+      {
+        "label": "M. Aemilius Lepidus triumviro",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q224839"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q105452"
+        ]
+      },
+      {
+        "label": "Foro Emiliano",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q107612017"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q107612017"
+        ]
+      },
+      {
+        "label": "iscrizioni latine",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q131628832"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q82055"
+        ]
+      },
+      {
+        "label": "teatro romano",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q19757"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q19757"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "pl",
+    "id": "oai:doaj.org/article:517269bafd7d41cdb95088ee60d2c43e",
+    "title_or": "Wpływ zmiany ustawy o samorządzie gminnym na implementację budżetów obywatelskich w miastach wojewódzkich Polski",
+    "title_eng": "The impact of the amendment to the Municipal Self-Government Act on the implementation of civil budgets in the provincial cities of Poland",
+    "abstract_or": " The purpose of the article is to examine the impact of the amendment of the Municipal-level Local Government Act (UOSG); Journal of Laws 2018, item 994) for the implementation of citizens’ budgets (BO) in 2019 and 2020 in the provincial cities of Poland. Using the desk research method, 36 BO regulations and more than 3,400 projects selected for implementation were analysed in 10 categories: (1) sport (investment and non-investment), (2) leisure and recreation (investment and non-investment), (3) construction or modernisation of pavements, (4) construction or modernisation of streets, (5) pedestrian crossings, (6) parking areas, (7) lighting, (8) urban bike (cycling infrastructure), (9) building upgrades and (10) other (e.g. educational, cultural, training). The extent of the impact of legislative changes on: (1) financial mechanism, (2) principles and organisation of the budgeting process, (3) generic structure of projects, (4) participatory budgeting model. In order to verify the results obtained, changes to the BO Regulations that are not attributable to the UOSG have been analysed in addition. It has been shown that the amendment of the Act has had an impact on the implementation of the BO in all the cities analysed. These changes mainly concerned the financial and formal organisational aspects of the budgeting process. The most important are: increase in the size of the overall grant (in 15 cities), modification of the distribution of the envelope (9), introduction of lists of support at project submission stage (7) and appeal procedure (9). Among the ‘non-statutory’ measures, the abolition of age limits in the remaining 7 cities should be distinguished. These actions have had positive effects in terms of increasing turnout (15) and the number of projects selected for implementation (12) and their average value (13). On the other hand, the predominance of the UOSG changes did not affect the typical structure of the projects (in both editions, 10 cities dominated ‘rest and recreation’; a total of 1149 projects in this category were selected for implementation). As a result of the implementation of the provisions of the new UOSG, the model for the implementation of BO in the provincial cities of Poland has been definitively harmonised. Finally, three procedures for the implementation of the BO were identified in accordance with the new rules: financial (4), procedural (1) and mixed (13).",
+    "abstract_eng": " The purpose of the article is to examine the impact of the amendment of the Municipal-level Local Government Act (UOSG); Journal of Laws 2018, item 994) for the implementation of citizens’ budgets (BO) in 2019 and 2020 in the provincial cities of Poland. Using the desk research method, 36 BO regulations and more than 3,400 projects selected for implementation were analysed in 10 categories: (1) sport (investment and non-investment), (2) leisure and recreation (investment and non-investment), (3) construction or modernisation of pavements, (4) construction or modernisation of streets, (5) pedestrian crossings, (6) parking areas, (7) lighting, (8) urban bike (cycling infrastructure), (9) building upgrades and (10) other (e.g. educational, cultural, training). The extent of the impact of legislative changes on: (1) financial mechanism, (2) principles and organisation of the budgeting process, (3) generic structure of projects, (4) participatory budgeting model. In order to verify the results obtained, changes to the BO Regulations that are not attributable to the UOSG have been analysed in addition. It has been shown that the amendment of the Act has had an impact on the implementation of the BO in all the cities analysed. These changes mainly concerned the financial and formal organisational aspects of the budgeting process. The most important are: increase in the size of the overall grant (in 15 cities), modification of the distribution of the envelope (9), introduction of lists of support at project submission stage (7) and appeal procedure (9). Among the ‘non-statutory’ measures, the abolition of age limits in the remaining 7 cities should be distinguished. These actions have had positive effects in terms of increasing turnout (15) and the number of projects selected for implementation (12) and their average value (13). On the other hand, the predominance of the UOSG changes did not affect the typical structure of the projects (in both editions, 10 cities dominated ‘rest and recreation’; a total of 1149 projects in this category were selected for implementation). As a result of the implementation of the provisions of the new UOSG, the model for the implementation of BO in the provincial cities of Poland has been definitively harmonised. Finally, three procedures for the implementation of the BO were identified in accordance with the new rules: financial (4), procedural (1) and mixed (13).",
+    "kws": [
+      {
+        "label": "polska",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q36"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q36"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "fi",
+    "id": "fttheseus:oai:www.theseus.fi:10024/14788",
+    "title_or": "Asuinkerrostalon merkittävimpien tehtävien tuotannonsuunnittelu ja johtaminen",
+    "title_eng": "Planning and managing the production of the main functions of the residential complex",
+    "abstract_or": NaN,
+    "abstract_eng": " This study work was carried out by the Housing Building Unit of NCC Rakennus Oy. The aim of the work was to develop the production planning of the main functions of their residential sites. The main stages of work were the hull, foundations, water ceiling and interior work. The aim was to develop a work-planning model for the main tasks, which was intended to make it sufficiently precise and user-friendly. In order to achieve this objective, a daily work plan was developed and an information board was created on the site to assist the manager in the course of a full-to-face exercise with workers. The work started by looking at the current level of work planning and management on the sites, which was the basis for the development of an effective basis for both the implementation of the work plan and the information board. The models developed were tested on two different sites. Based on the feedback received, the templates were finalised. The learning work was based on the experimental, interviews and literature data on the subject, as well as information already gathered by the company. At the end of the work, the results were reported and possible further development needs were assessed. As a result of the study, experience and development of day-to-day production planning was gained, including in the context of familiarisation with the working phase. In addition, the work of the model was useful for the visits to the sites in the form of a precise production plan. The information board was recognised as a useful tool for the weekly planning of the work manager and as a general bulletin board on the site.  This thesis was done for the unit of residential construction of NCC Construction Ltd. The purpose of the work was to develop the production planning of the most important tasks of its block of flats. A frame, foundations, roof and indoors works were treated with the most important stages. The objective was to develop a model from the most important tasks for production planning of which purpose was to be, exact enough and at the...",
+    "kws": [
+      {
+        "label": "Rakennustekniikka",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q2674423"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q80993"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "hu",
+    "id": "ftunivnkedc:oai:tudasportal.uni-nke.hu:20.500.12944/15826",
+    "title_or": "Csődöt mondott csodafegyver? A beépített adatvédelem hiányosságai",
+    "title_eng": "Did you go bankrupt? Gaps in data protection by design",
+    "abstract_or": NaN,
+    "abstract_eng": " The General Data Protection Regulation (GDPR), which became applicable in 2018, introduces, among others, privacy by design as a new tool to ensure better data protection. This means that the requirements of the GDPR should be taken into account at the planning stage. Our study is based on the fact that there may be a conflict with fundamental rights or a regulatory vacuum between privacy by design principle and choice architecture often used by sophisticated large companies to influence consumer choices. We believe that machine learning can allow for ever more latent and severe interference in the private sector, without undermining privacy by design requirements. In this study, we look at when consumer manipulation combined with decision-making will be in breach of fundamental rights (private sector). Finally, we propose to enlarge the principle of privacy by design so as to make it easier to deal with the already illegitimate influence inherent in decision-making. Pursuant to the principle ‘privacy by design’, the data controller must consider data protection aspects, and integrating appropriate measures both before and during data processing, to comply with the GDPR and protect the rights of data subjects. S, as we presume, there may be a collision between this principle and the growingly popular psychological method of choice architecture. Taking advantage of the latter, more and more companies using nudges to orientate users’ behaviour towards choices of their own interests. This could be claimed legal, but in fact, now of their consciously relying on the indefinite wording of the regulation to verify their far from fair practices. This conflict of privacy by design and nudging draw attention to a regulatory gap, which makes the infringement of fundamental rights, since privacy and the freedom of choice are likely to be...",
+    "kws": [
+      {
+        "label": "GDPR",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q1172506"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1172506"
+        ]
+      },
+      {
+        "label": "privacy by design",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q7246028"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q7246028"
+        ]
+      },
+      {
+        "label": "nudge",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q69396773"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q7068367"
+        ]
+      },
+      {
+        "label": "gépi tanulás",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q2539"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q2539"
+        ]
+      },
+      {
+        "label": "profilalkotás",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q1191309"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q2388839"
+        ]
+      },
+      {
+        "label": "privacy by randomness",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q188728"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q525400"
+        ]
+      },
+      {
+        "label": "privacy by assistance",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q188728"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1995720"
+        ]
+      },
+      {
+        "label": "choice architecture",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q5104029"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q5104029"
+        ]
+      },
+      {
+        "label": "machine learning",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q2539"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q2539"
+        ]
+      },
+      {
+        "label": "profiling",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q128142845"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1191309"
+        ]
+      },
+      {
+        "label": "bubble effect",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q59340706"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q3069700"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "tr",
+    "id": "oai:doaj.org/article:9c8d0cde72544ad7bdfc9bbb44f7cbf8",
+    "title_or": NaN,
+    "title_eng": "A Representative Building of First National Architectural Style in Ankara: “Harita Umum Müdürlüğü”",
+    "abstract_or": NaN,
+    "abstract_eng": "Built for the need to produce own maps of the Republic of Turkey and also a school task seasoned “Harita Umum Müdürlüğü” building, still with that artistic and architectural characteristics it should be considered as an important representative building of National Architecture Renaissance or First National Architectural Style in the capital of Turkey. To date, no detailed studies have been conducted on the history of art and architecture. In this article, the factors that prepare the building process, when it was built, the architectural and artistic features were tried to be clarified; In the light of the information obtained by scanning the documents in the archives of the Republic, the construction process and date were determined; The aim of the study is to introduce the building, plan, facade characteristics, artistic and architectural specifications and to emphasize its place and importance in the First National Architecture Period.",
+    "kws": [
+      {
+        "label": "Ankara",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q3640"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q3640"
+        ]
+      },
+      {
+        "label": "Mimarlık",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q12271"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q12271"
+        ]
+      },
+      {
+        "label": "Birinci Ulusal Mimarlık Dönemi",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q6095546"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q5464270"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "nl",
+    "id": "50|dedup_wf_001::d0e604874e8644c1fcf8187abb7f3a9e",
+    "title_or": "Tiel Medel 1A Definitief archeologisch onderzoek naar een grafveld uit de Romeinse tijd en een woonterp uit de Nieuwe Tijd in het ontwikkelingsgebied Medel 1A, gemeente Neder-Betuwe",
+    "title_eng": "Tiel Medel 1A Definitive archaeological research into a Roman graf and a New Time housing in the Medel 1A development area, municipality of Lower Betuwe",
+    "abstract_or": NaN,
+    "abstract_eng": "In autumn 2013, VUhbs archaeology carried out an archaeological survey in the form of an excavation in the Medel 1A development area on behalf of Industrieschap Medel. A farm shall will be established within the area covered by the plan. The work involved will disturb the presence of archaeological residues in the soil. The preliminary investigation had shown that there were two deposits within the planning area. Location 1 concerned a grafting field from Roman times and place 2 consisted of a home from the New Time. Both sites were recognised as worthy of conservation by the competent authority, the Province of Gelderland. Both sites had to be documented and ensured ex situ. The extent of the two sites was not entirely clear in advance. Prior to the excavation, VUhbs archaeology, based on the Requirements Programme, had drawn up a Plan of Approach setting out the field work procedure to be followed. This PvA was met in such a way that the questions from the CoE could be answered in the most efficient way possible. One of the ways in which this has been achieved is a very flexible approach to the surface to be excavated per deposit. Since prior to the fieldwork it was not clear what the size of the two sites was, this had to be established during the excavation. For example, work wells in the survey of the grafted field have been expanded whenever a new grave was found. In advance, the research focused on achieving the most efficient research strategy within maximised budgets. The targeted research strategy on the core of residential housing made it possible, at a relatively early stage of the investigation, to remove parts of location 2 without losing important information. In the end, 6 594 m² of the site were examined in archaeological terms. On the basis of the results of the preliminary study, it was expected that the grafted field at finder 1 was a very small grass field that is different for the region. In total, nineteen (possible) graves have been examined and this picture can be slightly adjusted. The graves were in two clusters that were separated not only in space but also over time on the basis of the available dates. The southern cluster graves dates back to early Roman times. The Northern cluster from the second half of the Middle Roman era. However, it has been shown that the grass field is not as different for the region as it was first thought. Indeed, the appearance of the grafted field is perfectly compatible with some other examples. It has been found that grass fields of different sizes and shapes in the same area and within the same period have been found to be coexisting in the river area. The graftable of Medel 1a location 1 is one of the smallest appearance of the grass fields. The core graves in which multiple settlements in one large communal graph burial their deaths are among the largest manifestations. An intermediate form has also been identified. In the end, the study concludes that the grass frying, or at least the shape of the grass fields, in the river basin is very similar to that of the South Netherlands. It is interesting to explore this possible relationship further in the future. The same applies in fact to the comparison material of the 2 publication. Only a few studies have been carried out and published on such sites. This shows that the survey of location 2 is an important complement to our knowledge of such places of residence. It has been shown that the dwelling at location 2 starts at the end of the 17th century after Chr. It is probable that the main building had already been built in stone in the first phase. At later stages, the TERP will be increased and, as is the case, the construction will be extended. Some of these phases could be linked to historical sources. The same applies to some tracks and structures on the site. Furthermore, the investigation has shown that there is no evidence to support the population’s wealth assumed in the preliminary investigation report on the basis of the available discoveries. This tends rather towards a regular farm. At the end of the fieldwork, the site was released for further development and started shortly afterwards.",
+    "kws": [
+      {
+        "label": "Begraving - Grafveld",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q331055"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q331055",
+          "http://www",
+          "wikidata",
+          "org/entity/Q173387"
+        ]
+      },
+      {
+        "label": "Romeinse tijd midden: 70 - 270 nC (ROMM)",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q125510349"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1225"
+        ]
+      },
+      {
+        "label": "Archaeology",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q23498"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q23498"
+        ]
+      },
+      {
+        "label": "Begraving - Grafveld, crematies (GVC)",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q331055"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q146982",
+          "http://www",
+          "wikidata",
+          "org/entity/Q39614",
+          "http://www",
+          "wikidata",
+          "org/entity/Q15310",
+          "http://www",
+          "wikidata",
+          "org/entity/Q558091"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "sv",
+    "id": "ftluleatu:oai:DiVA.org:ltu-91723",
+    "title_or": "För Älskade saker : Ett hållbart designkoncept för återbruk av begagnade produkter",
+    "title_eng": "For loved things: A sustainable design concept for the reuse of second-hand products",
+    "abstract_or": NaN,
+    "abstract_eng": "This thesis project is based on the area of Technical Design with a focus on sustainable development and sustainable consumption. The purpose of the project is to develop a concept for a product or service that helps families with children to reduce their negative environmental impact without reducing the supply of the products they need. The goal of the project is to provide in-depth knowledge of product and service development based on human needs. At the end of the project, a well-developed prototype will be created and presented. In order to succeed in creating a concept that both meets the users needs and contributes to minimal environmental impact, literature studies have been carried out in subjects such as sustainable development, aesthetics, consumption and circular economy. The project has been implemented according to the Design Thinking process (Hasso Plattner Institute of Design at Stanford, u.å.). The process consists of the five phases Empathize, Define, Ideate, Build and Test. The sixth phase reDesign was added to set aside time for adjustments according to the user feedback collected in the test phase. Methods such as survey and interview were used early in the process to gain understanding of the users needs and motivations. The information collected in the Empathize phase was analyzed in the Define phase. With the use of methods such as Persona and Point of View, four problem areas could be identified and further defined. During sessions of How might we and brainstorming, many creative solutions were created. The idea that was considered to solve the problem in the best way was built as a prototype and then used in interactive user tests. Based on the user feedback, some adjustments were made prior to the final concept. The result of this thesis was the concept Pre-Loved Things, a new way of giving away gifts that do not increase consumption but instead make use of the resources that already exist. The end product is a sticker, designed to symbolize all the good that used products stand for. ...",
+    "kws": [
+      {
+        "label": "Consumption",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q192270"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q7590"
+        ]
+      },
+      {
+        "label": "Ecological sustainability",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q219416"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q219416"
+        ]
+      },
+      {
+        "label": "Second-hand",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q2068804"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q185345"
+        ]
+      },
+      {
+        "label": "Sticker",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q2872553"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q2872553"
+        ]
+      },
+      {
+        "label": "Konsumtion",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q192270"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q192270"
+        ]
+      },
+      {
+        "label": "Ekologisk hållbarhet",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q219416"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q198327"
+        ]
+      },
+      {
+        "label": "Klistermärke",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q2872553"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1324961"
+        ]
+      },
+      {
+        "label": "Engineering and Technology",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q96698607"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q3725352"
+        ]
+      },
+      {
+        "label": "Design",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q82604"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q82604"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "fr",
+    "id": "oai:revues.org:communicationorganisation/392",
+    "title_or": "Mission repérage(s) : un élu, un artiste",
+    "title_eng": "Identification mission (s): one elected representative, one artist",
+    "abstract_or": "« Mission Repérage » est une expérience réalisée dans treize villes de France pendant trois ans (2002 à 2005). Elle met en contact un élu et un artiste qui, pendant une journée, se promènent dans la ville pour échanger leurs émotions et imaginer des possibles projets urbains.",
+    "abstract_eng": "“On Location” was an experience that was carried out in thirteen cities in France over a period of three years (2002 à 2005). It consisted in matching the mayor, or an elected official, with an artist so that they could explore the city on foot for an entire day and give free rein to their imaginations. The goal of this experience of shared emotions and brain storming is to envisage possible urban projects.",
+    "kws": [
+      {
+        "label": "politique de la ville",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q3394669"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q338662"
+        ]
+      },
+      {
+        "label": "urbanisme/architecture",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q59950",
+          "https://www.wikidata.org/wiki/Q63100",
+          "https://www.wikidata.org/wiki/Q12271"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q69883",
+          "http://www",
+          "wikidata",
+          "org/entity/Q12271"
+        ]
+      },
+      {
+        "label": "artiste de la ville",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q483501"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q2914170"
+        ]
+      },
+      {
+        "label": "urban policy",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q131150339"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q69883"
+        ]
+      },
+      {
+        "label": "urbanisation – architecture",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q59950",
+          "https://www.wikidata.org/wiki/Q63100",
+          "https://www.wikidata.org/wiki/Q12271"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q161078",
+          "http://www",
+          "wikidata",
+          "org/entity/Q12271"
+        ]
+      },
+      {
+        "label": "the artist in the city",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q483501"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q557141"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "el",
+    "id": "10670/1.kostum",
+    "title_or": "Η ατμόσφαιρα στο τοπίο και το Μάρκετινγκ Τόπου: Το αρχαιολογικό τοπίο της Επιδαύρου",
+    "title_eng": "The atmosphere in the landscape and the Marketing site: The archaeological landscape of Epidavros",
+    "abstract_or": NaN,
+    "abstract_eng": "Part of topic : Ambiances and territories in transformation International audience The concept of landscape is approached through the interaction of the concepts of people and place. Place marketing aims at supporting place image through the promotion of its distinctive characteristics. The perception of landscape and place marketing occurs through the atmospheric sense of place. In order to examine the impacts of place marketing strategies to landscape and the possibility of change in the atmosphere of the place there is an analysis of the case of the archaeological landscape of Epidaurus, its restorations and its intensive replanting in order to turn it into an international tourist destination.",
+    "kws": [
+      {
+        "label": "Μάρκετινγκ Τόπου",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q1009343"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q123858693"
+        ]
+      },
+      {
+        "label": "αρχαιολογικό τοπίο",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q839954"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q839954"
+        ]
+      },
+      {
+        "label": "Επίδαυρος",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q233576"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q233576"
+        ]
+      },
+      {
+        "label": "ατμόσφαιρα",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q8104"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q8104"
+        ]
+      },
+      {
+        "label": "τοπίο",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q107425"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q107425"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "pt",
+    "id": "oai:doaj.org/article:5d1f7958eda34d1bb7116b66745e791a",
+    "title_or": "Proposições para análise da diferenciação espacial nos estudos sobre rede urbana: as noções de convergência e divergência",
+    "title_eng": "Proposals for spatial differentiation analysis in urban network studies: the concepts of convergence and divergence",
+    "abstract_or": NaN,
+    "abstract_eng": " Urban studies have long been pointing to the processes of differentiating between centres and their respective urban networks, defined by the genetic complexity and complexity of dimensional, functional and spatial structures. However, these processes have specific features, among which the re-differentiation between centres in the control of a given network segment is highlighted. In reality, it is the rise of a new centre, on new and broader bases, to the detriment of an old one, indicating discontinuous changes, characterised mainly by processes of convergence and divergence, that is to say, by the contradiction between equalising and differentiating actions, which result in the restructuring of the urban network.",
+    "kws": [
+      {
+        "label": "Rede urbana",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q5370577"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q5370577"
+        ]
+      },
+      {
+        "label": "Espaço",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q380933"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q107"
+        ]
+      },
+      {
+        "label": "Convergência",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q759757"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q210253"
+        ]
+      },
+      {
+        "label": "Divergência",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q85900110"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1376152"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "es",
+    "id": "oai:doaj.org/article:d11c33b1fb52434ebc7669126d38f39a",
+    "title_or": NaN,
+    "title_eng": "Gentrification of La Candelaria: Reconfigurations of Place of Residence and Consumption of High-income Groups",
+    "abstract_or": "The sector of La Candelaria (Bogotá D. C., Colombia) has once again become a place of residence and consumption for high-income groups that had abandoned the area in the mid-20th century due to multiple urban problems. This dynamics of relocation, known as gentrification in urban geography, is a trend previously observed in other cities and forms part of the global process of urbanization. The article provides a reading of that urban phenomenon in Bogotá on the basis of the analysis of its causes and consequences.",
+    "abstract_eng": "The sector of La Candelaria (Bogotá D. C., Colombia) has once again become a place of residence and consumption for high-income groups that had abandoned the area in the mid-20th century due to multiple urban problems. This dynamics of relocation, known as gentrification in urban geography, is a trend previously observed in other cities and forms part of the global process of urbanization. The article provides a reading of that urban phenomenon in Bogotá on the basis of the analysis of its causes and consequences.",
+    "kws": [
+      {
+        "label": "gentrificación",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q119380"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q119380"
+        ]
+      },
+      {
+        "label": "grupos de altos ingresos",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q106471300"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1050918"
+        ]
+      },
+      {
+        "label": "La Candelaria",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q2651388"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q2651388"
+        ]
+      },
+      {
+        "label": "lugar de residencia",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q24960546"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q5609331"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "pl",
+    "id": "oai:revues.org:napis/414",
+    "title_or": "Nie tylko pochwała rodu – o znaczeniu ramy wydawniczej Komedyj i tragedyj Franciszki Urszuli Radziwiłłowej w upamiętnieniu pierwszej polskiej dramatopisarki",
+    "title_eng": "Not only commends the rhodium – the importance of Komedij’s publishing framework and Franciszki Urszula Radziwiłova in commemoration of the first Polish dramato writer",
+    "abstract_or": NaN,
+    "abstract_eng": "The article is an analysis of the function of elements of front matter and end matter in the collection of sixteen plays by Franciszka Urszula Radziwiłłowa. The collection was published shortly after the death of the author, thanks to the efforts of her assistant, Jakub Fryczyński, who actively supported the Princess at Nesvizh in her theatrical undertakings for many years. Published in 1754 and dedicated to the aristocrat’s daughters, the tome was the second consecutive initiative aiming at sharing Radziwiłłowa’s literary work with a wider audience. The first attempt was undertaken still in the author’s lifetime, and abandoned for reasons unknown to us today. An analysis of the dedication and foreword for the reader allows one to characterise the role of these elements in a publishing undertaking which was unusual for its time, depicting a member of a great aristocratic family not as a wife, mother, or respected matron, but as a learned woman, a bibliophile and, most of all, a writer.",
+    "kws": [
+      {
+        "label": "twórczość kobiet",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q745312"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1058910"
+        ]
+      },
+      {
+        "label": "teatr XVIII wieku",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q17172848"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1076480"
+        ]
+      },
+      {
+        "label": "women’s artistic works",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q745312"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1451575"
+        ]
+      },
+      {
+        "label": "eighteenth century theatre",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q17172848"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1061140"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "el",
+    "id": "oai:ojs.pkp.sfu.ca:article/22305",
+    "title_or": "Βιβλιοκρισία: L. BALLETTO, Aspetti e Momenti della Storia di Cipro (secc. XIII-XV) [Centre de Recherche Scient. Recueil de travaux IV], Λευκωσία 2018",
+    "title_eng": "—Ιβλιοκρισία: L. balletto, Aspects and Motions of the History of Cyprus (secc. XIII-XV) (Centre de Recherche Scient. Recueil de travaux IV], – (e)’ s/he/she/he/she], – (2018)",
+    "abstract_or": NaN,
+    "abstract_eng": "– ιβλιοκρισία: L. Balletto, Aspects and Motions of the History of Cyprus (secc. XIII-XV) (Centre de Recherche Scientifique. Recueil de travaux IV], – (2018), (a), (b), (b), (b), (b), (b), (b), (b), (b), (b), (b), (",
+    "kws": [
+      {
+        "label": "Κύπρος",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q229"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q229"
+        ]
+      },
+      {
+        "label": "Γένοβα",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q1449"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1449"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "sl",
+    "id": "ftunivmaribor:oai:dk.um.si:IzpisGradiva.php?id=12650",
+    "title_or": "Novotvorjenke za poimenovanje oseb v slovenskem jeziku ; SILENT LETTERS IN ENGLISH AND SLOVENE LEARNERS",
+    "title_eng": NaN,
+    "abstract_or": NaN,
+    "abstract_eng": NaN,
+    "kws": [
+      {
+        "label": "besedotvorje",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q327358"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q193496"
+        ]
+      },
+      {
+        "label": "vršilec",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q392648"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q189127"
+        ]
+      },
+      {
+        "label": "nosilec",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q107105674"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Property:P3022"
+        ]
+      },
+      {
+        "label": "opravkar",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q1787727"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q3606537"
+        ]
+      },
+      {
+        "label": "feminativ",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q66502812"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q66502812"
+        ]
+      },
+      {
+        "label": "časopis",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q41298",
+          "https://www.wikidata.org/wiki/Q11032"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q41298"
+        ]
+      },
+      {
+        "label": "revija",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q41298",
+          "https://www.wikidata.org/wiki/Q49850"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1368848"
+        ]
+      },
+      {
+        "label": "internet",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q75"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q75"
+        ]
+      },
+      {
+        "label": "blog",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q30849"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q30849"
+        ]
+      },
+      {
+        "label": "klepetalnica",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q574577"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q11023"
+        ]
+      },
+      {
+        "label": "word-formation",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q327358"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q327358"
+        ]
+      },
+      {
+        "label": "neologisms",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q130989"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q130989"
+        ]
+      },
+      {
+        "label": "agent",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q24229398"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q24229398"
+        ]
+      },
+      {
+        "label": "object",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q488383"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q35120"
+        ]
+      },
+      {
+        "label": "feminative",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q66502812"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q66502812"
+        ]
+      },
+      {
+        "label": "newspaper",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q11032"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q11032"
+        ]
+      },
+      {
+        "label": "chat room",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q574577"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q574577"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "ca",
+    "id": "oai:revues.org:atlante/8789",
+    "title_or": "L'art en l'Orde de la Mercè: de l'ortodòxia tridentina a l’heterodòxia iberoamericana",
+    "title_eng": NaN,
+    "abstract_or": "El 1563 havien passat més de tres-cents cinquanta anys des de la fundació de l'Orde de la Mercè. Els mercedaris, com la resta dels ordes religiosos, apostaren per l'art com a instrument d'adequació a la doctrina emanada del decret De Imaginibus i mostraren en les seves obres programes iconogràfics amb un clar sentit d'exaltació dels valors mercedaris. A la frontera amb el turc i en els primers anys de la conquesta americana, el seu carisma fundacional, el rescat de captius, els permeté jugar un paper de primacia en terres de conquesta i evangelització. L'ortodòxia de l'art peninsular, com a instrument doctrinal, tindrà la seva continuïtat en els territoris d'ultramar gràcies a les sèries devocionals de gravats que viatjaren a través de l'Atlàntic; si bé amb el pas del temps evolucionaren cap a l'heterodòxia, generant una nova imatge votiva, que en ocasions fou transgressora, i posteriorment presa com a icona dels insurgents en els processos d'independència dels països americans.",
+    "abstract_eng": "More than three hundred and fifty years had passed since the founding of the Order of Mercy when the Council of Trento ended in 1563. The Mercedarians, like the rest of the religious orders, opted for art as an instrument of adaptation to the doctrine emanating from the decree De Imaginibus, and showed in their works iconographic programs with a clear sense of exaltation of the values ​​of the Order of Mercy. On the border with the Turks and in the early years of the American conquest, their founding charisma, the rescue of captives, allowed them to play a leading role in lands of conquest and evangelization. The orthodoxy of peninsular art, as a doctrinal instrument, will have its continuity in the overseas territories thanks to the devotional and engraved sèries that travelled across the Atlantic. Over time they evolved into heterodoxy, generating a votive image that will sometimes be transgressive and later taken as an icon of insurgents in the independence of American countries.",
+    "kws": [
+      {
+        "label": "ordre de la Merci",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q100886306"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1074100"
+        ]
+      },
+      {
+        "label": "Trente",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q3376"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q15111"
+        ]
+      },
+      {
+        "label": "culture visuelle",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q861716"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q861716"
+        ]
+      },
+      {
+        "label": "art latino-américain",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q6496268"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q6496268"
+        ]
+      },
+      {
+        "label": "image de dévotion",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q25400141"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q477248"
+        ]
+      },
+      {
+        "label": "order of Mercy",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q100886306"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q770186"
+        ]
+      },
+      {
+        "label": "Council of Trento",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q172991"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q172991"
+        ]
+      },
+      {
+        "label": "visual culture",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q861716"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q861716"
+        ]
+      },
+      {
+        "label": "Latin American art",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q6496268"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q6496268"
+        ]
+      },
+      {
+        "label": "devotional image",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q25400141"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q489632"
+        ]
+      },
+      {
+        "label": "orde de la Mercè",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q100886306"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q770186"
+        ]
+      },
+      {
+        "label": "Trento",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q3376"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q3376"
+        ]
+      },
+      {
+        "label": "cultura visual",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q3376"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q861716"
+        ]
+      },
+      {
+        "label": "art iberoamericà",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q6496268"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q6496268"
+        ]
+      },
+      {
+        "label": "imatge devocional",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q25400141"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q2864737"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "es",
+    "id": "oai:revues.org:criticon/4085",
+    "title_or": "Sobre un elogio imperial tardío: José de Cobaleda y Aguilar y el Panegírico a Carlos V",
+    "title_eng": "On a late imperial praise: José de Cobaleda and Aguilar and the Panegric to Carlos V",
+    "abstract_or": "Este artículo propone una reevaluación critica del principal texto poético del poeta lojeño José de Cobaleda y Aguilar, el Panegírico a Carlos V, fechable en los años 1640-1650, y de clarísima impronta gongorina. Se destacan algunas de las variantes entre los distintos testimonios conservados y, dejando un análisis estilístico para otra ocasión, se examina la estructura general del poema, inspirada en anteriores obras encomiásticas dedicadas a la figura del Emperador. Y, finalmente, se demuestra la fuerte conexión de Cobaleda con dos partidarios destacados de Góngora en Andalucía, García de Salcedo Coronel y Martín de Angulo y Pulgar.",
+    "abstract_eng": "This article proposes a critical re-evaluation of the main poem of the poet of Loja José de Cobaleda y Aguilar, the Panegírico a Carlos V, datable in the years 1640-1650, and very marked by the influence of Góngora. It highlights some of the variations between the different textual testimonies preserved and, leaving a thorough stylistic analysis for another occasion, examines the general structure of the poem, which is inspired by previous encomiastic works dedicated to the figure of the Emperor. Finally, it shows the strong link between Cobaleda and two eminent supporters of Góngora in Andalusia, García de Salcedo Coronel and Martín de Angulo y Pulgar.",
+    "kws": [
+      {
+        "label": "panegírico",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q591055"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q193444"
+        ]
+      },
+      {
+        "label": "Carlos V",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q32500"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q32500"
+        ]
+      },
+      {
+        "label": "Góngora Luis de",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q219744"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q219744"
+        ]
+      },
+      {
+        "label": "Angulo y Pulgar Martín de",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q5861802"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q5861802"
+        ]
+      },
+      {
+        "label": "panégyrique",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q591055"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q134808"
+        ]
+      },
+      {
+        "label": "Charles-Quint",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q32500"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q32500"
+        ]
+      },
+      {
+        "label": "panegyric",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q591055"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q193444"
+        ]
+      },
+      {
+        "label": "Charles V",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q32500"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q32500"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "tr",
+    "id": "ftduzceuniv:oai:acikerisim.duzce.edu.tr:20.500.12684/8950",
+    "title_or": "Şeyh Ömer Efendi Risâletü'l-Esrâr (Metin 1b-46a YK) ; Şeyh Ömer Efendi Risâletü'l-Esrâr (Text 1b-46a FOL.)",
+    "title_eng": "Sheik Ömer Lord Risâletü'l-Esrâr (Metin 1b-46a YK); Sheik Ömer Lord Risâletü'l-Esrâr (Text 1b-46a fol.)",
+    "abstract_or": NaN,
+    "abstract_eng": " LFIP Tez No: 691830 ; The main aim of this work is to read Risâletü'l-Esrâr, one of our writing works as a cultural heritage, to contribute to the scientific world and to future generations. Our work explored the designation of Sheik Ömer Efendi's Risâletül-Esrâr, written in prose. The introductory section of our work, designed in three parts, in introductions, text and similar print, is provided information on works written in Risâletu'l-Esrâr style and summarises the chapters. In the text section, the method for spelling and shape characteristics is written in the articles when preparing the text. The same section also included transcription text and indicative. In the final chapter, the same print is given. With this thesis, we have presented Risâletu'l-Esrâr, which has never been studied, to the scientific world. ; The main aim of this study is to contribute to the world of science and to transfer it to future generations by reading risks'l-Esrâr, one of our written works that we consider to be cultural heritage. In our study, a Sufi work called Risâletü'lEsrâr, written by Sheik Omer Efendi as a prose, was examined. In the introduction section of our study, which was designed in three sections: introduction, text and just like printing, information was given about the works written in the style of risk'lEsrâr and a summary of the Chapters was made. In the next section, how to follow the path of spelling and shape properties when preparing the text is written in the form of articles. Again, transcribed text and darkens were also included in the same section. In the last part, the exact composition of the work is given. With this Thesis, we have presented the work Risâletü'l-Esrâr, which has not been studied to date, to the world of science.",
+    "kws": [
+      {
+        "label": "Türk Dili ve Edebiyatı",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q256",
+          "https://www.wikidata.org/wiki/Q1328366"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q5832894"
+        ]
+      },
+      {
+        "label": "Turkish Language and Literature",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q256",
+          "https://www.wikidata.org/wiki/Q1328366"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q8427"
+        ]
+      },
+      {
+        "label": "Şeyh Ömer Efendi",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q76400883"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q76400883"
+        ]
+      },
+      {
+        "label": "Tasavvuf",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q9603"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q9603"
+        ]
+      },
+      {
+        "label": "Sufism",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q9603"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q9603"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "pt",
+    "id": "oai:revues.org:lusotopie/4744",
+    "title_or": "Amílcar Cabral e Pepetela: processos intertextuais a propósito do Homem Novo",
+    "title_eng": "Amílcar Cabral and Pepetela: intertextual processes concerning New man",
+    "abstract_or": NaN,
+    "abstract_eng": "The article analyzes the fictional representation of the New Man in the works As aventuras de Ngunga (1976) and Se o passado não tivesse asas (2016), by the Angolan writer Pepetela, relating them to the theoretical legacy of Amílcar Cabral. In view of the discourses left by Cabral, its permanence and/or rupture in the literary texts is investigated. For such analysis, besides the texts of Cabral, the article uses the studies of cultural representation of Stuart Hall and the formulations about textual adaptation processes defended by Linda Hutcheon.",
+    "kws": [
+      {
+        "label": "Amílcar Cabral",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q213416"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q213416"
+        ]
+      },
+      {
+        "label": "Pepetela",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q736858"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q312545"
+        ]
+      },
+      {
+        "label": "Homme Nouveau",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q7009984"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q170203"
+        ]
+      },
+      {
+        "label": "intertextualité",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q667404"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q667404"
+        ]
+      },
+      {
+        "label": "fiction",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q8253"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q8253"
+        ]
+      },
+      {
+        "label": "New Man",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q7009984"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q3338976"
+        ]
+      },
+      {
+        "label": "intertextuality",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q667404"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q667404"
+        ]
+      },
+      {
+        "label": "Homem Novo",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q7009984"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q12608302"
+        ]
+      },
+      {
+        "label": "intertextualidade",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q667404"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q667404"
+        ]
+      },
+      {
+        "label": "ficção",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q8253"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q8253"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "sq",
+    "id": "ftalbanica:oai:ojs2.albanica.al:article/492",
+    "title_or": NaN,
+    "title_eng": "Politics of installation as politics of the archive: three case studies ; Politika e artit të instalacionit si politikë e arkivit: tri raste studimore",
+    "abstract_or": NaN,
+    "abstract_eng": "In this paper I discuss three recent exhibitions focusing on the communist era archives of the Ministry of Defense (Bunk’Art I), the Ministry of Interior Affairs (Bunk’Art II), and the Albanian communist regime’s secret police, namely, Sigurimi i Shtetit (House of Leaves). What is remarkable about the Bunk’Art I, Bunk’Art II, and House of Leaves exhibitions is the way in which they self-consciously appropriate and exploit the “language” or the conventions of contemporary artistic and curatorial installations, i.e., embodied perspective, immersion, theatricality, etc., to mediate the relationship between contemporary audiences and the communist past. The question, then, is whether the use of the “language” or conventions of contemporary artistic and curatorial installations in these exhibitions succeeds in making the communist past more readily accessible to contemporary audiences, or whether it makes it even harder to read.Traditionally discussed in terms of being an especially democratic art form by virtue of opening up the space of the work of art to a community of visitors, more recently critics such as Boris Groys have drawn attention to the nondemocratic, violent act by which the space of the installation is created in the first place, namely, through the symbolic privatization of the public space of the exhibition over which the installation artist exerts absolute control. As such, artistic and curatorial installations reveal “the hidden sovereign dimension of the contemporary democratic order that politics, for the most part, tries to conceal”.2 I will show that the Bunk’Art I, Bunk’Art II, and House of Leaves exhibitions not only reveal the excess of sovereignty that underpins the contemporary Albanian political order, but also a vision of politics as installation art – or contemporary art exhibition – applied to an entire country. ; Në këtë artikull shqyrtohen tri ekspozita që janё hapur vitet e fundit nё Tiranё, të cilat kanё nё fokus arkivat e periudhës komuniste të Ministrisë së Mbrojtjes (Bunk’Art ...",
+    "kws": [
+      {
+        "label": "arti i instalacionit",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q212431"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q212431"
+        ]
+      },
+      {
+        "label": "Bunk’Art I",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q31665506"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q31665506"
+        ]
+      },
+      {
+        "label": "Bunk’Art II",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q31665506"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q31666886"
+        ]
+      },
+      {
+        "label": "installation art",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q212431"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q212431"
+        ]
+      },
+      {
+        "label": "sovereign power",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q22676587"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q2101636"
+        ]
+      },
+      {
+        "label": "House of Leaves",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q37858697"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q39084494"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "fi",
+    "id": "fttheseus:oai:www.theseus.fi:10024/39260",
+    "title_or": "Äänityön toimintamallit : vertaileva tutkimus elokuvaäänen työtavoista",
+    "title_eng": "Voting Pathways: a comparative study on the working methods of cinema",
+    "abstract_or": NaN,
+    "abstract_eng": " The written part of the functional doctrine examines and presents the various types of action and thought of the film as regards the creation of a ja jargonity. The objective is unexplained, how much are the ways in which it would form a smooth and workable whole of film, from pre-planning to production. The objective is to explain how the desired result of cinematographic performance can be achieved with different resources and methods. It compares the documentary film a ja jargonity with the fictional motifs of the fiction film, in the a ja jacket of the documentary work of the bookmaker’s booklet. The philosophy of different authors of themes from the Kalsksite will serve as a stumbling frame of the artist, which will be supplemented by written material from the assay. A mixture of the gas mill’s Street 1, co-designed by the author, ‘Manage dog’ short-fiction film. They will counterbalance each other, in particular in the section of the written reflection. The films in question were very different, even if the same motives stand. At the beginning of the written session, you will briefly present the philosophical features of the film making. In particular, the chapter highlights the most technical thrust. The third and fifth chapters form the real frame of the author’s research, in which all aspects of the film of the ‘la jackiekayda’ are all aspects of the film. The final chapter focuses on the author’s own reflection on the subject. It forms a whole of cinematographicalitysta, in which the issues previously presented are reverted to a number of times and to deepen the meadows. The various types of activity and thinking of a jargonity have been the subject of the author’s attention throughout the course of his studies. The different approaches that prevail in different areas, the different approaches to be followed in the past have given rise to a number of different questions about the way in which the action is taken. For readers, a written tying can offer new ‘nauty’ angles to the different aspects of the film, or to familiarise the reader with the scenes of the film jargonity.  The present Bachelor’s thesis examines...",
+    "kws": [
+      {
+        "label": "elokuva",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q11424"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q11424"
+        ]
+      },
+      {
+        "label": "ääni",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q17172850"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q11460"
+        ]
+      },
+      {
+        "label": "äänentallennus",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q758891",
+          "https://www.wikidata.org/wiki/Q3302947"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q11410"
+        ]
+      },
+      {
+        "label": "äänitekniikka",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q15280872"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q132812"
+        ]
+      },
+      {
+        "label": "elokuvaääni",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q12860724"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q11424"
+        ]
+      },
+      {
+        "label": "äänitys",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q13557414"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q184485"
+        ]
+      },
+      {
+        "label": "äänikalusto",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q3302947"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q13235160"
+        ]
+      }
+    ]
+  }
+]

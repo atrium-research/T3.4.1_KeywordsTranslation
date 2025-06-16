@@ -1,0 +1,207 @@
+from ..utils.wikidata_data import query_best_matches_wikidata 
+from ..clients import LLMClient, OpenAIClient, GroqClient, AnthropicClient, OpenAIWebSearchClient
+from ..utils.prompt import PotentialEntitiesGenerationPrompt, EntitySelectionPrompt, DirectWikidataLinkingPrompt
+import os
+
+class EntityExtractionPipeline:
+    """Pipeline for extracting entities from research papers using any LLM client."""
+    
+    def __init__(self, client_type: str, model_name: str, api_key: str = None):
+        """
+        Initialize the pipeline with an LLM client.
+        
+        Args:
+            client_type: Type of client ('openai', 'groq', or 'claude')
+            model_name: Name of the model to use
+            api_key: API key for the service (if None, will use environment variables)
+        """
+        if api_key is None:
+            if client_type == 'openai':
+                api_key = os.getenv('OPENAI_API_KEY')
+            elif client_type == 'groq':
+                api_key = os.getenv('GROQ_API_KEY')
+            elif client_type == 'claude':
+                api_key = os.getenv('ANTHROPIC_API_KEY')
+        
+        if client_type == 'openai':
+            self.llm_client = OpenAIClient(api_key, model_name)
+        elif client_type == 'groq':
+            self.llm_client = GroqClient(api_key, model_name)
+        elif client_type == 'claude':
+            self.llm_client = AnthropicClient(api_key, model_name)
+        else:
+            raise ValueError(f"Unsupported client type: {client_type}. Use 'openai', 'groq', or 'claude'")
+    
+    def generate_potential_entities(self, language: str, title: str, abstract: str, keywords: str, num_names: int = 10):
+        """
+        Generate potential entities using LLM based on paper metadata.
+        
+        Returns:
+            List of generated entities or None if parsing fails
+        """
+        prompt_object = PotentialEntitiesGenerationPrompt(
+            num_names, language, title, abstract, keywords
+        )
+        
+        prompt = prompt_object.generate_prompt()
+        
+        try:
+            response = self.llm_client.generate_response(
+                "You are a helpful assistant.", 
+                prompt
+            )
+            entities = prompt_object.checking_schema_function(response)
+            return entities
+            
+        except Exception as e:
+            print(f"❌ Failed to generate entities: {e}")
+            return None
+    
+    def query_wikidata_matches(self, generated_entities):
+        """
+        Query Wikidata for best matches of generated entities.
+        
+        Returns:
+            List of Wikidata entities with metadata
+        """
+        wikidata_entities = []
+        for entity in generated_entities:
+            matches = query_best_matches_wikidata(entity)
+            wikidata_entities.extend(matches)
+        
+        return wikidata_entities
+    
+    def format_wikidata_entities(self, wikidata_entities):
+        """Format Wikidata entities into a readable string."""
+        formatted_string = ""
+        for entity in wikidata_entities:
+            formatted_string += (
+                f"Entity: {entity['label']}; "
+                f"Description: {entity['description']}; "
+                f"URI: {entity['uri']}\n"
+            )
+        return formatted_string
+    
+    def filter_entities_with_llm(self, language: str, title: str, abstract: str, 
+                               keywords: str, wikidata_entities_string: str, 
+                               num_entities: int = 1):
+        """
+        Use LLM to filter and select best entities from Wikidata matches.
+        
+        Returns:
+            List of selected entities or None if parsing fails
+        """
+        prompt_object = EntitySelectionPrompt(num_entities, language, title, abstract, keywords, wikidata_entities_string)
+        prompt = prompt_object.generate_prompt()
+        
+        try:
+            response = self.llm_client.generate_response(
+                "You are a helpful assistant.",
+                prompt
+            )
+            selected_entities = prompt_object.checking_schema_function(response)
+            return selected_entities
+            
+        except Exception as e:
+            print(f"❌ Failed to filter entities: {e}")
+            return []
+    
+    def run (self, language: str, title: str, abstract: str, keywords: str, num_entities: int = 1, num_generated_names: int = 10):
+        """
+        Complete pipeline to extract relevant entities from a research paper.
+        
+        This function:
+        1. Generates potential entities using LLM
+        2. Queries Wikidata for matches
+        3. Uses LLM to filter and select the best entities
+        
+        Args:
+            language: Original language of the paper
+            title: Paper title
+            abstract: Paper abstract
+            keywords: Paper keywords
+            num_entities: Number of final entities to return
+            num_generated_names: Number of potential entities to generate initially
+            
+        Returns:
+            List of selected entities or [] if process fails
+        """
+        # Step 1: Generate potential entities
+        generated_entities = self.generate_potential_entities(
+            language, title, abstract, keywords, num_generated_names
+        )
+        if not generated_entities:
+            return []
+        
+        # Step 2: Query Wikidata
+        wikidata_entities = self.query_wikidata_matches(generated_entities)
+        if not wikidata_entities:
+            print("❌ No Wikidata matches found")
+            return []
+        
+        # Step 3: Format entities for LLM
+        wikidata_entities_string = self.format_wikidata_entities(wikidata_entities)
+        
+        # Step 4: Filter with LLM
+        selected_entities = self.filter_entities_with_llm(
+            language, title, abstract, keywords, wikidata_entities_string, num_entities
+        )
+        
+        if selected_entities:
+            pass
+        else:
+            print("❌ Entity extraction failed")
+        
+        return selected_entities
+
+
+class DirectWikidataLinkingPipeline:
+    """Pipeline for directly linking paper keywords to Wikidata URIs using an LLM."""
+
+    def __init__(self, model_name: str, api_key: str = None):
+        """
+        Initialize the pipeline with OpenAI WebSearch client.
+
+        Args:
+            model_name: Name of the OpenAI model to use
+            api_key: OpenAI API key (if None, will use OPENAI_API_KEY environment variable)
+        """
+        if api_key is None:
+            api_key = os.getenv('OPENAI_API_KEY')
+        
+        self.llm_client = OpenAIWebSearchClient(api_key, model_name)
+
+    def run(self, language: str, title: str, abstract: str, keywords: str):
+        """
+        Use LLM to directly link paper keywords to the most relevant Wikidata URIs.
+
+        Args:
+            language: Language of the research paper
+            title: Title of the paper
+            abstract: Abstract of the paper
+            keywords: Keywords (comma-separated or list)
+
+        Returns:
+            List of dictionaries with fields 'keyword', 'label', 'description', and 'uri',
+            or None if the parsing fails.
+        """
+        prompt_object = DirectWikidataLinkingPrompt(
+            language=language,
+            title=title,
+            abstract=abstract,
+            keywords=keywords
+        )
+        prompt = prompt_object.generate_prompt()
+
+        try:
+            response = self.llm_client.generate_response(
+                "You are a knowledgeable assistant helping map research concepts to Wikidata.",
+                prompt
+            )
+            linked_entities = prompt_object.checking_schema_function(response)
+
+            return linked_entities
+
+        except Exception as e:
+            print(f"❌ Failed to link keywords to Wikidata URIs: {e}")
+            return None

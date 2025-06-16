@@ -1,0 +1,284 @@
+[
+  {
+    "language": "fi",
+    "id": "fttheseus:oai:www.theseus.fi:10024/146560",
+    "title_or": "Lännenratsastuksen karjalajit : Internet-sivuston luominen ja havainnollistavan materiaalin tuottaminen",
+    "title_eng": "Species of west-bottomed cattle: Creation of a website and production of illustrative material",
+    "abstract_or": NaN,
+    "abstract_eng": "Opinnäytetyö oli toiminnallinen kehittämistyö, jossa luotiin Internet-sivusto ja karjalajien sääntövihko (epävirallinen). Sivuja mainostettiin erityisesti sosiaalisessa mediassa. Sivut on rakennettu WordPress-alustalle. Sivustolla on havainnollistava, informatiivinen ja tiivis esittely Suomessa harrastettavista karjalajeista ja karjanpaimentamisesta. Esitellyt lajit olivat Cattle Penning ja Team Penning sekä Team Sorting. Aiheen selkeyttämiseen lukijalle sivustolla käytettiin valokuvia, piirroksia ja videoita. Kuvamateriaali kuvattiin vuosina 2015-2017 Suomessa ja Ruotsissa. Piirrokset tehtiin Adobe PhotoShopilla. Kuvat piirsi opinnäytetyöntekijä itse. Opinnäytetyössä panostettiin visuaalisuuteen lukijan mielenkiinnon herättämiseksi. Luodun sivuston lisäksi opinnäytetyössä käännettiin lännenratsastuksen karjalajien säännöt suomeksi ja ne koottiin vihkoksi. Sääntöjen lähteenä käytettiin American Quarter Horse Associationin (AQHA) sääntökirjaa. Säännöt löytyvät liitteenä sivustolta. Säännöt ovat epäviralliset. Opinnäytetyön toimeksiantaja oli karjakursseja ja karjalajien harjoituskilpailuja järjestävä Launosten Kartano. Opinnäytetyöllä pyrittiin parantamaan lajin tunnettavuutta harrastajamäärän lisäämiseksi ja lajin kehittymiseksi. Sivujen avulla lajista tietämätön pystyy muodostamaan itselleen helposti kokonaiskuvan karjalajeista ja karjanpaimentamisesta. Kynnys alkeiskurssille menemiselle on matalampi, kun lajiin on mahdollista tutustua etukäteen Internetissä. Harrastajamäärän kasvamisen myötä kysyntä lisääntyy ja kursseja tarjoavien yritysten määrä voi kasvaa. Tällöin myös ulkomaalaisten kouluttajien kysyntä lisääntyy, jolloin yrittäjien ja harrastajien tietotaitotaso paranee. Laji on tullut Suomeen 2008, jolloin on järjestetty ensimmäinen karjakurssi Ylä-Savossa. Toiminnallisen kehittämistyön taustateoriaan kuului olennaisena osana Internet-sivujen rakentaminen. Sivujen hyvän rakenteen lisäksi teoriassa käsiteltiin tiedonhakua, jonka avulla varmistetaan luotettavan tiedon löytäminen sivuston materiaaliksi. Työn visuaalisuuden takia kuvamateriaali ja videokuvaus sekä editointi olivat tärkeä osa teoriaa. Viimeisenä käsiteltiin eläinten hyvinvointia ja eläinsuojelulakia, joka vaikuttaa karjalajien harrastamiseen. ; The thesis is a functional development work. It includes a web-page and an unofficial rulebook about cattle working in Western riding. The web-page was advertised especially in social media and it is created on WordPress platform. The page includes illustrative, informative and compact introduction of cattle working in Finland and cattle herding. The sport introduction concerns Cattle Penning and Team Penning and Team Sorting. Photos, computer drawings and videos were used to help the reader to clarify the subject. The photos were taken in years 2015 to 2017 in Finland and Sweden. The drawings were made with Abode PhotoShop. They were made by the author of the thesis. Visualization was an important part of the thesis because it raises the reader’s interest. Along with the web-page the sport rules were translated into Finnish and collected to one leaflet. The rules were translated from the rules of the American Quarter Horse Association. The translated rules are found from the web-page as an attachment. They are still unofficial. The client of the thesis was Launosten Kartano that arranges cattle courses and practice competitions. The thesis aimed to improve the recognizability of the sport to increase the number of hobbyists and to develop the sport. The web-page offers an unaware person a general view about cattle working and herding. The threshold for attending a basic cattle course is lower when the person can familiarize with this sport in advance. When the amount of hobbyists rises there will be more courses when the demand increases. This way the amount of companies that offer cattle courses can grow. Also, when there is more demand there can be more foreign trainers which improves the level of hobbyists and entrepreneurs. The sport has come to Finland in 2008 when the first cattle course was organized in North Savo. A big part of this functional development thesis was designing the web-page. The theory part includes also information retrieval that makes sure that the information on the web-page is trustworthy. Visualization was an important part of the work so the theory covers footage, taking videos and editing. The last part was about animal welfare and animal protection law because they effect the sport. ; Opinnäytetyön tuotos Lännenratsastuksen karjalajit -sivusto, niitä varten kuvatut videot ja Lännenratsastuksen karjalajien kilpailusäännöt -vihko löytyvät seuraavista osoitteista: • Lännenratsastuksen karjalajit -sivusto: https://karjalajit.wordpress.com/ • Lännenratsastuksen karjalajit -soittolista: https://www.youtube.com/playlist?list=PL_gD7vuGBB6U3SGqFrlc66YrKy2-jPfwn",
+    "kws": [
+      {
+        "label": "hevonen",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q726"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q726"
+        ]
+      },
+      {
+        "label": "nauta",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q830"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q830"
+        ]
+      },
+      {
+        "label": "paimennus",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q1484503"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1484503"
+        ]
+      },
+      {
+        "label": "lännenratsastus",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q1323015"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q1323015"
+        ]
+      },
+      {
+        "label": "kilpailu",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q878123"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q476300"
+        ]
+      },
+      {
+        "label": "Asiantuntija",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q381160",
+          "https://www.wikidata.org/wiki/Q1642960",
+          "https://www.wikidata.org/wiki/Q1391344"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q381160"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "sv",
+    "id": "ftunivmalmoe:oai:DiVA.org:mau-20119",
+    "title_or": "Vad är det jag accepterar egentligen? En studie kring medvetenhet och samtycke om webbsidors kakor",
+    "title_eng": "What do I really accept? A study on awareness and consent on website cookies",
+    "abstract_or": NaN,
+    "abstract_eng": "Denna studie syftar till att undersöka om och i sådana fall hur medvetenheten om kakor skiljer sig mellan internetanvändare från två olika generationer. Samt hur internetanvändare från två olika generationer uppfattar företags tillvägagångsätt att informera om vad samtycke till kakor innebär för internetanvändare. Den syftar även till att undersöka vilket samband som finns mellan internanvändares inställning till att dela data och företagens tillvägagångsätt att informera om samtycke på sina webbsidor. Den yngre generationen representerar 18–30 åringar och den äldre generationen representerar 45–60 åringar och har valts då de har introducerats till internet i olika stadier av deras liv. Studien är baserad på en kvantitativ webbaserad enkätundersökning och baserad på svar från 175 respondenter. Resultaten visade att den yngre generationen ansåg sig vara mer medvetna om vad kakor är jämfört med den äldre generationen. Cirka hälften av respondenterna i den yngre generationen och 76% av respondenterna i den äldre generationen ansåg inte att de var medvetna om vad webbsidor använder insamlade data till. Båda generationerna ansåg att webbsidor borde ge tydligare information om hur och vad de använder kakor till. Studiens slutsats indikerar att tydliga informationsrutor om hur och vad delade data används har en positiv påverkan på respondenternas upplevda trygghet till att dela data. ; The purpose of this study is to examine if the awareness of cookies differs between two different generations, and if so, how it differs. The study also examines how two generations perceive the way companies provide information about what consent to cookies means for the internet users. The study also aims to examine whether internet users’ attitude to sharing data is connected to the way companies provide information about consent on their websites. The younger generation represents internet users between 18-30 years and the older generation represents internet users between 45-60 years. They have been chosen because they have been introduced to the internet at different stages of their lives. The study is based on a quantitative web-based survey with answers from 175 respondents. The result showed that the younger generation considers themselves to be more aware of what cookies mean compared to the older generation. About half of the respondents in the younger generation and 76% of the respondents in the older generation did not consider themselves to be aware of what websites uses the collected data for. Both generations felt that websites should provide clearer information on how and what they use cookies for. The study ́s conclusion indicates that clear information notices about how and what shared data is used for has a positive impact on respondents perceived safety to share data.",
+    "kws": [
+      {
+        "label": "Kakor",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q13276"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q178995"
+        ]
+      },
+      {
+        "label": "samtycke",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q231043"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q231043"
+        ]
+      },
+      {
+        "label": "medvetenhet",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q4338318"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q4338318"
+        ]
+      },
+      {
+        "label": "Engineering and Technology",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q96698607"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q11661"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "el",
+    "id": "oai:ojs.pkp.sfu.ca:article/14214",
+    "title_or": "Ο εμπορικός χάρτης της βυζαντινής Θεσσαλονίκης: ιχνηλατώντας τις αγορές της πόλης από τον 9ο αιώνα έως την οθωμανική κατάκτηση.",
+    "title_eng": "The commercial map of Byzantine Thessalonike: tracing the marketplaces of the city from the 9th century until the Ottoman occupation.",
+    "abstract_or": NaN,
+    "abstract_eng": "Based on restricted archaeological evidence and scattered literary sources, the present paper aims to detect the areas of Byzantine Thessalonike, where commercial activity had been developed, traces the extended marketplaces of a large urban centre and attempts to draw, even faintly, the commercial map of the city from the middle Byzantine period until the Ottoman conquest.",
+    "kws": [
+      {
+        "label": "Βυζαντινή περίοδος (9ος-15ος αι.)",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q12544"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q12554"
+        ]
+      },
+      {
+        "label": "Θεσσαλονίκη",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q17151"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q17151"
+        ]
+      },
+      {
+        "label": "εμπόριο",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q601401"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q26643"
+        ]
+      },
+      {
+        "label": "αγορά",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q330284"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q132510"
+        ]
+      },
+      {
+        "label": "Byzantine period (9th-15th c.)",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q12544"
+        ],
+        "match": "r",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q12544"
+        ]
+      },
+      {
+        "label": "trade/commerce",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q601401"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q26643"
+        ]
+      },
+      {
+        "label": "marketplace",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q330284"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q330284"
+        ]
+      }
+    ]
+  },
+  {
+    "language": "ar",
+    "id": "oai:doaj.org/article:38ae68145e3f49d9b0715ed6d4bac77d",
+    "title_or": "تأثير البيئة في التركيبة الجسمانية لإنسان كهف هوتو في العصر الحجري الوسيط في إيران .",
+    "title_eng": "The impact of the environment on the physical structure of Hutu cave humans in the Middle Stone Age in Iran. ^",
+    "abstract_or": NaN,
+    "abstract_eng": " This study aims to find out the environmental impacts on the physical structure of caves, as well as the various climate factors of coldness and heat, the location of these caves after them and their proximity to the water of rivers and seas, the extent of their impact on the human body, the extent of human adaptation to the natural environment surrounding it, and the extent of the impact of the diet.",
+    "kws": [
+      {
+        "label": "البيئة",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q2249676"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q2249676"
+        ]
+      },
+      {
+        "label": "الانسان",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q5"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q5"
+        ]
+      },
+      {
+        "label": "هوتو",
+        "wikidata_url": [
+          "https://www.wikidata.org/wiki/Q192647"
+        ],
+        "match": "e",
+        "llm_uris": [
+          "http://www",
+          "wikidata",
+          "org/entity/Q192647"
+        ]
+      }
+    ]
+  }
+]
