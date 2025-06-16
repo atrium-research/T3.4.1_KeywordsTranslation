@@ -1,3 +1,7 @@
+## News (30/05/2025)
+Updated the project structure and added support for more openai clients. Also added the possibility of using the openai websearch
+
+
 ## News (24/03/2025)
 Our methodology has been presented in a paper accepted at the MDTT 2025 Conference (https://mdtt2025.web.auth.gr/en/)! In the paper, we evaluated our methodology on a newly created dataset of keyword mappings from the GoTriple portal. The evaluation_files of the repo contains the dataset file and the notebook used for the evaluation. 
 
@@ -28,7 +32,7 @@ The project has been restructured with a modular architecture:
 
 - **Processing Pipelines (`src/pipelines/`)**: Two main approaches for entity extraction:
   - **EntityExtractionPipeline**: Multi-step process that generates potential entities, queries Wikidata, and selects best matches
-  - **DirectWikidataLinkingPipeline**: Direct keyword-to-URI mapping using LLM knowledge
+  - **DirectWikidataLinkingPipeline**: Direct keyword-to-URI mapping using OpenAI LLM websearch API
 
 - **Prompt System (`src/prompt.py`)**: Structured prompt templates for different tasks:
   - Entity generation prompts
@@ -36,15 +40,9 @@ The project has been restructured with a modular architecture:
   - Direct Wikidata linking prompts
   - Schema validation for LLM responses
 
-### Legacy Implementation (legacy/ directory)
-
-- The legacy directory contains the original notebook-based implementation with functions for DBPedia Spotlight, quantized LLMs, and OpenAI models
-- Files data_utils.py and tools_utils.py contain utility functions for sampling keywords from GoTriple platform
-- Run test_notebook.ipynb to experiment with the legacy tools
-
 ## Usage Examples
 
-### Using the New Architecture
+### Using the scripts
 
 ```python
 from src.clients.clients import GroqClient, OpenAIClient
