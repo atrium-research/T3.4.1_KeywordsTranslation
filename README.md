@@ -14,11 +14,68 @@ This tool is now available as a workflow in the SSHOC Marketplace. You can find 
 
 ## Description
 
-The current commit contains functions for experimenting with different tools.
+This project provides a comprehensive framework for keyword translation and entity linking in academic research papers. The system supports multiple LLM providers and offers two main approaches for mapping keywords to Wikidata entities.
 
-- Run the notebook test_notebook if you want to start experimenting with the currently available tools (actually, three functions are available: a function that uses DBPedia Spotlight, a function that uses quantized versions of open-source Large Language Models (and so that can be run on a laptop without specialized hardware and without access keys for proprietary models, and a function that uses OpenAI LLMs). Please refer to the code main_functions.py (where the functions are defined) for further details about the functions.
-- The files data_utils.py and tools_utils.py contain utility functions. They are useful for various purposes, such as obtaining a sample
-of keywords from the GoTriple platform in different languages. They can be used autonomously. Please refer to the code for further detail.
+### New Architecture (src/ directory)
+
+The project has been restructured with a modular architecture:
+
+- **LLM Clients (`src/clients/`)**: Unified interface supporting multiple LLM providers:
+  - OpenAI (standard and web search enabled)
+  - Groq (fast, cost-effective open models)
+  - Anthropic Claude
+  - All clients implement retry logic and consistent interfaces
+
+- **Processing Pipelines (`src/pipelines/`)**: Two main approaches for entity extraction:
+  - **EntityExtractionPipeline**: Multi-step process that generates potential entities, queries Wikidata, and selects best matches
+  - **DirectWikidataLinkingPipeline**: Direct keyword-to-URI mapping using LLM knowledge
+
+- **Prompt System (`src/prompt.py`)**: Structured prompt templates for different tasks:
+  - Entity generation prompts
+  - Entity selection prompts  
+  - Direct Wikidata linking prompts
+  - Schema validation for LLM responses
+
+### Legacy Implementation (legacy/ directory)
+
+- The legacy directory contains the original notebook-based implementation with functions for DBPedia Spotlight, quantized LLMs, and OpenAI models
+- Files data_utils.py and tools_utils.py contain utility functions for sampling keywords from GoTriple platform
+- Run test_notebook.ipynb to experiment with the legacy tools
+
+## Usage Examples
+
+### Using the New Architecture
+
+```python
+from src.clients.clients import GroqClient, OpenAIClient
+from src.pipelines.pipelines import EntityExtractionPipeline, DirectWikidataLinkingPipeline
+
+# Initialize LLM client
+client = GroqClient(api_key="your-api-key", model_name="llama-3.1-8b-instant")
+
+# Option 1: Multi-step Entity Extraction
+pipeline = EntityExtractionPipeline(client)
+entities = pipeline.run(
+    language="English",
+    title="Your paper title",
+    abstract="Your paper abstract", 
+    keywords="keyword1, keyword2",
+    num_entities=3
+)
+
+# Option 2: Direct Wikidata Linking
+direct_pipeline = DirectWikidataLinkingPipeline(client)
+linked_entities = direct_pipeline.run(
+    language="English",
+    title="Your paper title",
+    abstract="Your paper abstract",
+    keywords="keyword1, keyword2"
+)
+```
+
+### Evaluation
+
+Run `evaluation.ipynb` to evaluate the system performance using the provided dataset `data/Dset_Eval_KW_Alignment_Eval_def.xlsx`.
 
 ## How to run the experiments
 
