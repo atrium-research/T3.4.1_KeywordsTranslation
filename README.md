@@ -1,6 +1,8 @@
 ## News (16/06/2025)
 
-The system has been enhanced with web search capabilities and improved evaluation framework:
+- **Extensive Evaluation Results**: Completed evaluation on 30 records using OpenAI's GPT-4o with web search capabilities, providing detailed performance metrics
+- **Code Refactoring**: Improved code organization by removing legacy implementations and consolidating functionality into the new structure
+- **Enhanced Pipeline Architecture**: Moved LLM client initialization inside pipelines for better encapsulation and easier configuration management
 - **OpenAI Web Search Integration**: Added support for OpenAI's GPT-4o with web search capabilities for more accurate and up-to-date entity linking
 - **Enhanced Evaluation System**: Comprehensive evaluation outputs with support for multiple LLM providers (OpenAI, Groq, Anthropic)
 - **Modular Architecture**: Moved evaluation notebooks to dedicated `notebooks/` directory for better organization
@@ -23,55 +25,173 @@ This tool is now available as a workflow in the SSHOC Marketplace. You can find 
 
 This project provides a comprehensive framework for keyword translation and entity linking in academic research papers. The system supports multiple LLM providers and offers two main approaches for mapping keywords to Wikidata entities.
 
-### New Architecture (src/ directory)
+## Code Architecture
 
-The project has been restructured with a modular architecture:
+### Directory Structure
 
-- **LLM Clients (`src/clients/`)**: Unified interface supporting multiple LLM providers:
-  - OpenAI (standard and web search enabled)
-  - Groq (fast, cost-effective open models)
-  - Anthropic Claude
-  - All clients implement retry logic and consistent interfaces
+```
+src/
+├── clients/          # LLM client implementations
+├── pipelines/        # Processing workflows
+└── utils/           # Supporting utilities
+    ├── prompt.py    # LLM prompt templates
+    ├── wikidata_data.py  # Wikidata/DBpedia integration
+    ├── gotriple_data.py  # GoTriple API integration
+    ├── excel.py     # Excel dataset parsing
+    └── eval.py      # Evaluation metrics
+```
 
-- **Processing Pipelines (`src/pipelines/`)**: Two main approaches for entity extraction:
-  - **EntityExtractionPipeline**: Multi-step process that generates potential entities, queries Wikidata, and selects best matches
-  - **DirectWikidataLinkingPipeline**: Direct keyword-to-URI mapping using OpenAI LLM websearch API
+### Core Components
 
-- **Prompt System (`src/prompt.py`)**: Structured prompt templates for different tasks:
-  - Entity generation prompts
-  - Entity selection prompts  
-  - Direct Wikidata linking prompts
-  - Schema validation for LLM responses
+#### **LLM Clients (`src/clients/`)**
+Unified interface supporting multiple LLM providers with built-in retry logic:
+
+- **OpenAIClient**: Standard OpenAI API wrapper
+- **OpenAIWebSearchClient**: Enhanced with web search capabilities and location context
+- **GroqClient**: Fast, cost-effective open-source models
+- **AnthropicClient**: Claude API wrapper
+
+All clients implement the same `LLMClient` interface ensuring consistent behavior.
+
+#### **Processing Pipelines (`src/pipelines/`)**
+Two main approaches for keyword-to-entity mapping:
+
+- **EntityExtractionPipeline**: Multi-step workflow
+  1. Generate potential entity names using LLM
+  2. Query Wikidata for candidate matches
+  3. Use LLM to select best matches from candidates
+  
+- **DirectWikidataLinkingPipeline**: Single-step direct mapping
+  - Uses OpenAI web search to directly map keywords to Wikidata URIs
+  - Provides structured JSON output with entity metadata
+
+#### **Utility Modules (`src/utils/`)**
+Supporting functionality for the entire system:
+
+- **Prompt Templates**: Structured prompts with schema validation
+- **Wikidata Integration**: SPARQL queries and URI resolution
+- **GoTriple Integration**: Research paper retrieval and processing
+- **Excel Processing**: Evaluation dataset parsing
+- **Evaluation Metrics**: Precision/recall calculations
 
 ## Usage Examples
 
-### Using the scripts
+### Pipeline Examples
 
+#### **Multi-step Entity Extraction**
 ```python
-from src.clients.clients import GroqClient, OpenAIClient
-from src.pipelines.pipelines import EntityExtractionPipeline, DirectWikidataLinkingPipeline
+from src.pipelines.pipelines import EntityExtractionPipeline
 
-# Initialize LLM client
-client = GroqClient(api_key="your-api-key", model_name="llama-3.1-8b-instant")
+# Initialize pipeline with different LLM providers
+pipeline = EntityExtractionPipeline(
+    client_type="groq",  # Options: 'openai', 'groq', 'claude'
+    model_name="llama-3.1-8b-instant",
+    api_key="your-groq-api-key"
+)
 
-# Option 1: Multi-step Entity Extraction
-pipeline = EntityExtractionPipeline(client)
+# Process research paper
 entities = pipeline.run(
     language="English",
-    title="Your paper title",
-    abstract="Your paper abstract", 
-    keywords="keyword1, keyword2",
-    num_entities=3
+    title="Machine Learning in Digital Humanities",
+    abstract="This paper explores the application of machine learning techniques...",
+    keywords="machine learning, digital humanities, text analysis",
+    num_entities=3  # Number of final entities to return
 )
 
-# Option 2: Direct Wikidata Linking
-direct_pipeline = DirectWikidataLinkingPipeline(client)
+print("Selected entities:", entities)
+```
+
+#### **Direct Wikidata Linking**
+```python
+from src.pipelines.pipelines import DirectWikidataLinkingPipeline
+
+# Uses OpenAI with web search capabilities
+direct_pipeline = DirectWikidataLinkingPipeline(
+    model_name="gpt-4o-search-preview",
+    api_key="your-openai-api-key"
+)
+
+# Direct keyword-to-URI mapping
 linked_entities = direct_pipeline.run(
     language="English",
-    title="Your paper title",
-    abstract="Your paper abstract",
-    keywords="keyword1, keyword2"
+    title="Digital Archaeology Methods",
+    abstract="Contemporary approaches to archaeological documentation...",
+    keywords="archaeology, digital methods, cultural heritage"
 )
+
+print("Linked entities:", linked_entities)
+```
+
+### Utility Functions
+
+#### **Wikidata Integration**
+```python
+from src.utils.wikidata_data import query_wikidata, query_best_matches_wikidata
+
+# Single best match
+result = query_wikidata("machine learning", language="en")
+print(f"Best match: {result}")
+
+# Multiple candidates
+matches = query_best_matches_wikidata("digital humanities", language="en", number_of_results=5)
+for match in matches:
+    print(f"Entity: {match['label']} - URI: {match['uri']}")
+```
+
+#### **GoTriple Research Data**
+```python
+from src.utils.gotriple_data import query_gotriple_api, get_gotriple_sample
+
+# Search research papers
+papers = query_gotriple_api(
+    language="en",
+    query_term="digital humanities",
+    size=50
+)
+
+# Get multilingual sample for evaluation
+sample_data = get_gotriple_sample(
+    languages=["en", "fr", "de"],
+    sample_size=100,
+    query_terms_file="data/query_terms.json"
+)
+```
+
+#### **Evaluation and Metrics**
+```python
+from src.utils.eval import compute_precision, compute_recall
+from src.utils.excel import parse_excel_file
+
+# Load evaluation dataset
+eval_data = parse_excel_file("data/Dset_Eval_KW_Alignment_Eval_def.xlsx")
+
+# Calculate performance metrics
+correct_uris = ["http://www.wikidata.org/entity/Q123", "http://www.wikidata.org/entity/Q456"]
+retrieved_uris = ["http://www.wikidata.org/entity/Q123", "http://www.wikidata.org/entity/Q789"]
+
+precision = compute_precision(correct_uris, retrieved_uris)
+recall = compute_recall(correct_uris, retrieved_uris)
+
+print(f"Precision: {precision:.2f}, Recall: {recall:.2f}")
+```
+
+### Configuration Examples
+
+#### **Environment Variables**
+```bash
+# Set API keys
+export OPENAI_API_KEY="your-openai-key"
+export GROQ_API_KEY="your-groq-key"
+export ANTHROPIC_API_KEY="your-claude-key"
+```
+
+#### **Supported Languages**
+```python
+# Available languages for processing
+supported_languages = [
+    'en', 'es', 'pt', 'fr', 'de', 'ru', 
+    'ca', 'it', 'nl', 'el', 'hr', 'cz'
+]
 ```
 
 ### Evaluation
