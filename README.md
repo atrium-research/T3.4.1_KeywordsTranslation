@@ -153,7 +153,7 @@ papers = query_gotriple_api(
 sample_data = get_gotriple_sample(
     languages=["en", "fr", "de"],
     sample_size=100,
-    query_terms_file="data/query_terms.json"
+    query_terms_file="evaluation_files/query_terms.json"
 )
 ```
 
@@ -163,7 +163,7 @@ from src.utils.eval import compute_precision, compute_recall
 from src.utils.excel import parse_excel_file
 
 # Load evaluation dataset
-eval_data = parse_excel_file("data/Dset_Eval_KW_Alignment_Eval_def.xlsx")
+eval_data = parse_excel_file("evaluation_files/Dset_Eval_KW_Alignment_Eval_def.xlsx")
 
 # Calculate performance metrics
 correct_uris = ["http://www.wikidata.org/entity/Q123", "http://www.wikidata.org/entity/Q456"]
@@ -196,9 +196,9 @@ supported_languages = [
 
 ### Evaluation
 
-Run `notebooks/evaluation.ipynb` to evaluate the system performance using the provided dataset `data/Dset_Eval_KW_Alignment_Eval_def.xlsx`. 
+Run `notebooks/evaluation.ipynb` to evaluate the system performance using the provided dataset `evaluation_files/Dset_Eval_KW_Alignment_Eval_def.xlsx`. 
 
-The evaluation system supports multiple LLM providers and generates detailed performance metrics. Results are automatically saved to `data/evaluation_output/` with both raw and adjusted evaluation scores.
+The evaluation system supports multiple LLM providers and generates detailed performance metrics. Results are automatically saved to `evaluation_files/evaluation_output/` with both raw and adjusted evaluation scores.
 
 ## How to run the experiments
 
